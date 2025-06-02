@@ -1,0 +1,76 @@
+package project1_Amazon;
+
+import java.io.FileInputStream;
+import java.io.IOException;
+
+import org.apache.poi.EncryptedDocumentException;
+import org.apache.poi.ss.usermodel.Workbook;
+import org.apache.poi.ss.usermodel.WorkbookFactory;
+import org.apache.poi.ss.util.NumberToTextConverter;
+import org.testng.ITestListener;
+import org.testng.annotations.DataProvider;
+import org.testng.annotations.Test;
+
+import project1_Amazon_Src.Amazon_CardPayPage;
+import project1_Amazon_Src.Amazon_HomePage;
+import project1_Amazon_Src.Amazon_LoginPage;
+
+public class Z_TC16_SelectCard_PaymentMthd extends AmazonPr_BaseClass implements ITestListener
+{
+	 @Test (dataProvider="UnPwdExcel")
+	   public void Select_CardPaymentAmazon(String username, String password)
+	   {
+		 
+		  // 12 Check if user is able to select each payment method
+		   
+		 
+		   System.out.println("Title is-> " + driver.getTitle());
+         
+	        Amazon_HomePage hp= new Amazon_HomePage(driver);
+	               hp.HoverOver(driver);
+	               hp.Signin();
+	   
+	        Amazon_LoginPage lp= new Amazon_LoginPage(driver);
+	                lp.Un(username);
+	                lp.ContinueButton();
+	                lp.Pwd(password);
+	                lp.SigninPress();
+		   
+		          
+	       Amazon_CardPayPage payp= new Amazon_CardPayPage(driver);
+		              payp.SearchProduct();
+		              payp.FirstProdClick();
+		              payp.ControlChild(driver);
+		              payp.AllPaymentMethods(driver);
+		   
+		   
+	   }
+     
+	   
+	   
+	   
+	   @DataProvider
+	     public Object [][] UnPwdExcel() throws EncryptedDocumentException, IOException
+	     {
+	    	 Object [][] unpwd= new Object[1] [2];
+			 
+			   FileInputStream f1= new FileInputStream("C:\\Users\\ajitc\\eclipse-workspace\\Maven_Programs2\\Excel Sheet\\Login Details.xlsx");
+			       
+			        Workbook w1=  WorkbookFactory.create(f1);			           
+			        
+			        
+			        String un1 = NumberToTextConverter.toText(w1.getSheet("Login").getRow(0).getCell(0).getNumericCellValue());
+			        String pwd1 = w1.getSheet("Login").getRow(0).getCell(1).getStringCellValue();
+			        
+				    unpwd[0][0]=un1;
+				    unpwd[0][1]=pwd1;
+	    	 
+			return unpwd;
+		
+	     }
+	
+	
+	
+	
+	
+}
