@@ -68,7 +68,6 @@
 					<configuration>
 						<suiteXmlFiles>
 							<suiteXmlFile>Amazon_Project_testng.xml</suiteXmlFile>
-				            <suiteXmlFile>Amazon_Project_Copy_testng.xml</suiteXmlFile>
 							<!--suiteXmlFile>target\surefire-reports\testng-failed.xml</suiteXmlFile-->
 						</suiteXmlFiles>
 					</configuration>

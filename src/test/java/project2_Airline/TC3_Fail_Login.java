@@ -8,15 +8,14 @@ import org.apache.poi.ss.usermodel.Workbook;
 import org.apache.poi.ss.usermodel.WorkbookFactory;
 import org.apache.poi.ss.util.NumberToTextConverter;
 import org.testng.annotations.DataProvider;
+import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
-import project1_Amazon_Src.Amazon_HomePage;
-import project1_Amazon_Src.Amazon_LoginPage;
-
+@Listeners(Airline_ITestListener.class)
 public class TC3_Fail_Login extends Airline_BaseClass
 {
-	@Test (dataProvider="UnPwdExcel")
-	public void Login_WrongCred_ToAirIndia(String username, String password)
+	@Test (dataProvider="UnPwdExcel", retryAnalyzer=Airline_RetryAnalyzer.class)
+	public void LoginTC3_WrongCred_ToAirIndia(String username, String password)
 	{
 		
 	        // 3 Test login with invalid credentials and ensure proper error messages are displayed.
@@ -26,21 +25,17 @@ public class TC3_Fail_Login extends Airline_BaseClass
 		
 	           System.out.println("Title is-> " + driver.getTitle());
 	           
-	        Amazon_HomePage hp= new Amazon_HomePage(driver);
-	               hp.HoverOver(driver);
-	               hp.Signin();
-	   
-	        Amazon_LoginPage lp= new Amazon_LoginPage(driver);
-	                lp.Un(username);
-	                lp.ContinueButton();
-	                lp.Pwd(password);
-	                lp.SigninPress();
+	        
 	        
 	            
 	              
 	        
 	
 	}
+	
+	
+	
+	
 	
 	
 	 @DataProvider

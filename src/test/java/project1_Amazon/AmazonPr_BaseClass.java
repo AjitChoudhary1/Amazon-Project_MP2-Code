@@ -1,26 +1,19 @@
 package project1_Amazon;
 
-import java.io.File;
-import java.io.IOException;
 import java.time.Duration;
-
-import org.openqa.selenium.OutputType;
-import org.openqa.selenium.TakesScreenshot;
-import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.edge.EdgeDriver;
-import org.openqa.selenium.io.FileHandler;
-import org.testng.ITestListener;
-import org.testng.ITestResult;
+import org.openqa.selenium.edge.EdgeOptions;
 import org.testng.Reporter;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Optional;
 import org.testng.annotations.Parameters;
 
-public class AmazonPr_BaseClass  implements ITestListener
+
+public class AmazonPr_BaseClass extends Amazon_ITestListener
 {
-	WebDriver driver;
 	
 	 @BeforeMethod
 	 @Parameters("Browsers")
@@ -30,19 +23,33 @@ public class AmazonPr_BaseClass  implements ITestListener
 	       
 		 if(NameOfBrowser.equals("edge"))
 		 {
-		   driver= new EdgeDriver();
+			  
+			 EdgeOptions options= new EdgeOptions();
+			 options.addArguments("start-maximized");
+			 
+			// options.setExperimentalOption("excludeSwitches", Collections.singletonList("enable-automation"));
+			 //  options.setExperimentalOption("useAutomationExtension", false);
+			 
+		           driver= new EdgeDriver(options);
 		 }
 		 
 		 if(NameOfBrowser.equals("chrome"))
 		 {
-			 driver= new ChromeDriver();
-			 //driver.navigate().refresh();
+			 
+			 ChromeOptions options= new ChromeOptions();
+			 options.addArguments("start-maximized");
+			 
+			// options.setExperimentalOption("excludeSwitches", Collections.singletonList("enable-automation"));
+			  // options.setExperimentalOption("useAutomationExtension", false);
+			 
+			         driver= new ChromeDriver(options);
+			           driver.navigate().refresh();
+			 
 		 }
 		 
 		 driver.get("https://www.amazon.in");
-		   driver.manage().window().maximize();
 		   
-		   driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
+		   driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(0));
 		   
 		 
 		      System.out.println();Reporter.log("Browser Is Launched Sucessfully");
@@ -58,61 +65,31 @@ public class AmazonPr_BaseClass  implements ITestListener
 	 }
 	 
 		      
-		      @Override
-		  	public void onTestSuccess(ITestResult ontestsuccess) 
-		  	{
-		  		// TODO Auto-generated method stub
-		  		   
-		  		
-		  		ITestListener.super.onTestFailure(ontestsuccess);
-		  	    Reporter.log("Test Case Is Fail");
-		  	    
-		  	          TakesScreenshot t1= (TakesScreenshot) driver;
-		  		  File source= t1.getScreenshotAs(OutputType.FILE);
-		  		  File destination= new File("C:\\Users\\ajitc\\eclipse-workspace\\Maven_Programs2\\ScreenShots\\Fail Sshot\\TCFail " + getClass() + ".jpg");
-		  		  try 
-		  		  {
-		  			FileHandler.copy(source, destination);
-		  			      System.out.println("Screenshot is Saved");
-		  		  } 
-		  		  catch (IOException e)
-		  		  {
-		  			// TODO Auto-generated catch block
-		  			e.printStackTrace();
-		  		  }
-		  		
-		  	}
-		       
-		  	 @Override
-		  	public void onTestFailure(ITestResult ontestfailure) 
-		  	{
-		  		// TODO Auto-generated method stub
-		  	     
-		  		// TODO Auto-generated method stub
-		  		ITestListener.super.onTestFailure(ontestfailure);
-		  		    Reporter.log("Test Case Is Fail");
-		  		    
-		  		          TakesScreenshot t1= (TakesScreenshot) driver;
-		  			  File source= t1.getScreenshotAs(OutputType.FILE);
-		  			  File destination= new File("C:\\Users\\ajitc\\eclipse-workspace\\Maven_Programs2\\ScreenShots\\Fail Sshot\\TCFail " + new TC2_Login().getClass() + ".jpg");
-		  			  try 
-		  			  {
-		  				FileHandler.copy(source, destination);
-		  				      System.out.println("Screenshot is Saved");
-		  			  } 
-		  			  catch (IOException e)
-		  			  {
-		  				// TODO Auto-generated catch block
-		  				e.printStackTrace();
-		  			  }
-		  			  
-		  	}
-		  		
-		  	
-		      
-	
 
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

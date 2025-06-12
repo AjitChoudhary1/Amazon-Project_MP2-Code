@@ -7,7 +7,7 @@ import project1_Amazon_Src.Amazon_RegisterPage;
 public class TC1_Register extends AmazonPr_BaseClass
 {
        @Test
-       public void Register_ToAmazon() throws InterruptedException
+       public void Register_ToAmazonTC1() throws InterruptedException
        {
     	   
     	   // 1- Test if a new user can successfully register.

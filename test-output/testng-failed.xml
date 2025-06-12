@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="project2_Airline.TC1_Register">
+      <class name="project1_Amazon.Y_TC14_StarRating">
         <methods>
-          <include name="Register_ToAirIndia"/>
+          <include name="Star5TC14_Rating_LastOrder_Amazon"/>
           <include name="Launching"/>
           <include name="Closing"/>
         </methods>
-      </class> <!-- project2_Airline.TC1_Register -->
+      </class> <!-- project1_Amazon.Y_TC14_StarRating -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

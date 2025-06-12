@@ -1,39 +1,39 @@
 package project1_Amazon;
 
-import java.io.FileInputStream;
 import java.io.IOException;
 
 import org.apache.poi.EncryptedDocumentException;
-import org.apache.poi.ss.usermodel.Workbook;
-import org.apache.poi.ss.usermodel.WorkbookFactory;
-import org.apache.poi.ss.util.NumberToTextConverter;
-import org.testng.ITestListener;
-import org.testng.annotations.DataProvider;
+import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
 import project1_Amazon_Src.Amazon_HomePage;
 import project1_Amazon_Src.Amazon_LoginPage;
 import project1_Amazon_Src.Amazon_PaymentMethodPage;
+import project1_Amazon_Src.Excel_DataFetching;
 
-public class W_TC12_SelectEach_PaymentMthd extends AmazonPr_BaseClass implements ITestListener
+@Listeners(Amazon_ITestListener.class)
+public class W_TC12_SelectEach_PaymentMthd extends AmazonPr_BaseClass 
 {
-	 @Test (dataProvider="UnPwdExcel")
-	   public void Select_AllPaymentAmazon(String username, String password)
+	 @Test (retryAnalyzer=Amazon_RetryAnalyzer.class)
+	   public void SelectTC12_AllPaymentAmazon() throws EncryptedDocumentException, IOException
 	   {
 		 
 		  // 12 Check if user is able to select each payment method
 		   
 		 
 		   System.out.println("Title is-> " + driver.getTitle());
+		   
+		   Excel_DataFetching d1=new Excel_DataFetching();
+	          d1.LoginData();
          
 	        Amazon_HomePage hp= new Amazon_HomePage(driver);
 	               hp.HoverOver(driver);
 	               hp.Signin();
 	   
 	        Amazon_LoginPage lp= new Amazon_LoginPage(driver);
-	                lp.Un(username);
+	                lp.Un();
 	                lp.ContinueButton();
-	                lp.Pwd(password);
+	                lp.Pwd();
 	                lp.SigninPress();
 		   
 		          
@@ -48,6 +48,60 @@ public class W_TC12_SelectEach_PaymentMthd extends AmazonPr_BaseClass implements
      
 	   
 	   
+}	 
+	 
+	 
+	 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	 
+	/* 
 	   
 	   @DataProvider
 	     public Object [][] UnPwdExcel() throws EncryptedDocumentException, IOException
@@ -69,8 +123,4 @@ public class W_TC12_SelectEach_PaymentMthd extends AmazonPr_BaseClass implements
 		
 	     }
 	
-	
-	
-	
-	
-}
+*/

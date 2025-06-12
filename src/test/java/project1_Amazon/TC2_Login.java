@@ -1,47 +1,84 @@
 package project1_Amazon;
 
-import java.io.FileInputStream;
 import java.io.IOException;
 
 import org.apache.poi.EncryptedDocumentException;
-import org.apache.poi.ss.usermodel.Workbook;
-import org.apache.poi.ss.usermodel.WorkbookFactory;
-import org.apache.poi.ss.util.NumberToTextConverter;
-import org.testng.annotations.DataProvider;
+import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
 import project1_Amazon_Src.Amazon_HomePage;
 import project1_Amazon_Src.Amazon_LoginPage;
+import project1_Amazon_Src.Amazon_LogoutPage;
+import project1_Amazon_Src.Excel_DataFetching;
 
+@Listeners(Amazon_ITestListener.class)
 public class TC2_Login extends AmazonPr_BaseClass
 {
-	@Test (dataProvider="UnPwdExcel")
-	public void LoginToAmazon(String username, String password)
+	
+	@Test (retryAnalyzer=Amazon_RetryAnalyzer.class)
+	public void LoginTC2_ToAmazon() throws EncryptedDocumentException, IOException
 	{
 		
 	        // 2 Verify login is successful with correct email and password.
 	   
 		
-	           System.out.println("Title is-> " + driver.getTitle());
-	           
+                 System.out.println("Title is-> " + driver.getTitle());
+
+		
+		     Excel_DataFetching d1=new Excel_DataFetching();
+		          d1.LoginData();
+			           
 	        Amazon_HomePage hp= new Amazon_HomePage(driver);
 	               hp.HoverOver(driver);
 	               hp.Signin();
 	   
 	        Amazon_LoginPage lp= new Amazon_LoginPage(driver);
-	                lp.Un(username);
+	                lp.Un();
 	                lp.ContinueButton();
-	                lp.Pwd(password);
+	                lp.Pwd();
 	                lp.SigninPress();
-	        
-	            
-	              
-	        
+	                
+	       Amazon_LogoutPage lop= new Amazon_LogoutPage(driver);
+	                lop.HoverOverHelloAjit(driver);
+	                lop.SignOutPressChildW();
+	                
+	                
+	                
+	}               
+	                
+}
 	
-	}
 	
 	
-	 @DataProvider
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+
+
+
+
+
+
+
+
+
+
+
+	
+/*	 @DataProvider
      public Object [][] UnPwdExcel() throws EncryptedDocumentException, IOException
      {
     	 Object [][] unpwd= new Object[1] [2];
@@ -60,7 +97,5 @@ public class TC2_Login extends AmazonPr_BaseClass
 		return unpwd;
 	
      }
-	 
+	 */
 		
-	
-}

@@ -1,39 +1,39 @@
 package project1_Amazon;
 
-import java.io.FileInputStream;
 import java.io.IOException;
 
 import org.apache.poi.EncryptedDocumentException;
-import org.apache.poi.ss.usermodel.Workbook;
-import org.apache.poi.ss.usermodel.WorkbookFactory;
-import org.apache.poi.ss.util.NumberToTextConverter;
-import org.testng.ITestListener;
-import org.testng.annotations.DataProvider;
+import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
 
 import project1_Amazon_Src.Amazon_HomePage;
 import project1_Amazon_Src.Amazon_LoginPage;
 import project1_Amazon_Src.Amazon_ProductPage1;
+import project1_Amazon_Src.Excel_DataFetching;
 
-public class TC7_Product_details_Display extends AmazonPr_BaseClass implements ITestListener
+@Listeners(Amazon_ITestListener.class)
+public class TC7_Product_details_Display extends AmazonPr_BaseClass
 {
-	 @Test (dataProvider="UnPwdExcel")
-	   public void ProductDetails_DisplayAmazon(String username, String password)
+	 @Test (retryAnalyzer=Amazon_RetryAnalyzer.class)
+	   public void ProductDetailsTC7_DisplayAmazon() throws EncryptedDocumentException, IOException
 	   {
 		 
 		  // 7 Ensure that the product detail page displays all necessary information (price, reviews, description).
 		 
 		   System.out.println("Title is-> " + driver.getTitle());
+		   
+		   Excel_DataFetching d1=new Excel_DataFetching();
+	          d1.LoginData();
          
 	        Amazon_HomePage hp= new Amazon_HomePage(driver);
 	               hp.HoverOver(driver);
 	               hp.Signin();
 	   
 	        Amazon_LoginPage lp= new Amazon_LoginPage(driver);
-	                lp.Un(username);
+	                lp.Un();
 	                lp.ContinueButton();
-	                lp.Pwd(password);
+	                lp.Pwd();
 	                lp.SigninPress();
 		   
 		          
@@ -41,7 +41,19 @@ public class TC7_Product_details_Display extends AmazonPr_BaseClass implements I
 		            pp.SearchProduct();
 		            pp.FirstProdClick();
 		            pp.ControlChild(driver);
-		            pp.DetailsDisplays(driver);
+		             
+		            
+		            
+		            
+		            
+		            
+		            
+		            
+		            
+		            
+		            
+		            
+		         // pp.DetailsDisplays(driver);
 		            
 		         
 		   
@@ -51,7 +63,68 @@ public class TC7_Product_details_Display extends AmazonPr_BaseClass implements I
      
 	   
 	   
-	   
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
 	   @DataProvider
 	     public Object [][] UnPwdExcel() throws EncryptedDocumentException, IOException
 	     {
@@ -71,9 +144,4 @@ public class TC7_Product_details_Display extends AmazonPr_BaseClass implements I
 			return unpwd;
 		
 	     }
-	
-	
-	
-	
-	
-}
+	*/

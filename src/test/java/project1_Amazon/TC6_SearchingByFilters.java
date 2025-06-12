@@ -1,25 +1,22 @@
 package project1_Amazon;
 
-import java.io.FileInputStream;
 import java.io.IOException;
 
 import org.apache.poi.EncryptedDocumentException;
-import org.apache.poi.ss.usermodel.Workbook;
-import org.apache.poi.ss.usermodel.WorkbookFactory;
-import org.apache.poi.ss.util.NumberToTextConverter;
-import org.testng.ITestListener;
-import org.testng.annotations.DataProvider;
+import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 import org.testng.asserts.SoftAssert;
 
 import project1_Amazon_Src.Amazon_HomePage;
 import project1_Amazon_Src.Amazon_LoginPage;
 import project1_Amazon_Src.Amazon_SearchPage;
+import project1_Amazon_Src.Excel_DataFetching;
 
-public class TC6_SearchingByFilters extends AmazonPr_BaseClass implements ITestListener
+@Listeners(Amazon_ITestListener.class)
+public class TC6_SearchingByFilters extends AmazonPr_BaseClass 
 {
-	 @Test (dataProvider="UnPwdExcel")
-	   public void SearchProduct_FilterAmazon(String username, String password) throws InterruptedException
+	 @Test (retryAnalyzer=Amazon_RetryAnalyzer.class)
+	   public void SearchProductTC6_FilterAmazon() throws EncryptedDocumentException, IOException
 	   {
 		 
 		 // 6 Verify that searching with filters (e.g., category, price range) fields accurate results.
@@ -27,6 +24,9 @@ public class TC6_SearchingByFilters extends AmazonPr_BaseClass implements ITestL
 		   SoftAssert s1= new SoftAssert();
 		   
 		   System.out.println("Title is-> " + driver.getTitle());
+		   
+		   Excel_DataFetching d1=new Excel_DataFetching();
+	          d1.LoginData();
          
 	        Amazon_HomePage hp= new Amazon_HomePage(driver);
 	               hp.HoverOver(driver);
@@ -34,9 +34,9 @@ public class TC6_SearchingByFilters extends AmazonPr_BaseClass implements ITestL
 	               
 	   
 	        Amazon_LoginPage lp= new Amazon_LoginPage(driver);
-	                lp.Un(username);
+	                lp.Un();
 	                lp.ContinueButton();
-	                lp.Pwd(password);
+	                lp.Pwd();
 	                lp.SigninPress();
 		   
 		          
@@ -72,7 +72,58 @@ public class TC6_SearchingByFilters extends AmazonPr_BaseClass implements ITestL
      
 	   
 	   
-	   
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
 	   @DataProvider
 	     public Object [][] UnPwdExcel() throws EncryptedDocumentException, IOException
 	     {
@@ -93,8 +144,4 @@ public class TC6_SearchingByFilters extends AmazonPr_BaseClass implements ITestL
 		
 	     }
 	
-	
-	
-	
-	
-}
+*/

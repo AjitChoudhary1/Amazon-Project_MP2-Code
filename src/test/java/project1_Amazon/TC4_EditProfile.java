@@ -1,39 +1,39 @@
 package project1_Amazon;
 
-import java.io.FileInputStream;
 import java.io.IOException;
 
 import org.apache.poi.EncryptedDocumentException;
-import org.apache.poi.ss.usermodel.Workbook;
-import org.apache.poi.ss.usermodel.WorkbookFactory;
-import org.apache.poi.ss.util.NumberToTextConverter;
-import org.testng.ITestListener;
-import org.testng.annotations.DataProvider;
+import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
 import project1_Amazon_Src.Amazon_HomePage;
 import project1_Amazon_Src.Amazon_LoginPage;
 import project1_Amazon_Src.Amazon_ProfilePage;
+import project1_Amazon_Src.Excel_DataFetching;
 
-public class TC4_EditProfile extends AmazonPr_BaseClass implements ITestListener
+@Listeners(Amazon_ITestListener.class)
+public class TC4_EditProfile extends AmazonPr_BaseClass 
 {
-	   @Test (dataProvider="UnPwdExcel")
-	   public void EditProfileAmazon(String username, String password)
+	   @Test (retryAnalyzer=Amazon_RetryAnalyzer.class)
+	   public void EditProfileTC4_Amazon() throws EncryptedDocumentException, IOException
 	   {
 		   
 		  // 4 Check if a user can successfully edit their profile information.
 		   
 		   
 		   System.out.println("Title is-> " + driver.getTitle());
+		   
+		   Excel_DataFetching d1=new Excel_DataFetching();
+	          d1.LoginData();
            
 	        Amazon_HomePage hp= new Amazon_HomePage(driver);
 	               hp.HoverOver(driver);
 	               hp.Signin();
 	   
 	        Amazon_LoginPage lp= new Amazon_LoginPage(driver);
-	                lp.Un(username);
+	                lp.Un();
 	                lp.ContinueButton();
-	                lp.Pwd(password);
+	                lp.Pwd();
 	                lp.SigninPress();
 		   
 		          hp.HoverOver(driver);
@@ -44,11 +44,56 @@ public class TC4_EditProfile extends AmazonPr_BaseClass implements ITestListener
 		   
 		   
 		   
+		         
 	   }
        
-	   
-	   
-	   
+}   
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*	   
 	   @DataProvider
 	     public Object [][] UnPwdExcel() throws EncryptedDocumentException, IOException
 	     {
@@ -70,4 +115,4 @@ public class TC4_EditProfile extends AmazonPr_BaseClass implements ITestListener
 	     }
 	
 	
-}
+*/

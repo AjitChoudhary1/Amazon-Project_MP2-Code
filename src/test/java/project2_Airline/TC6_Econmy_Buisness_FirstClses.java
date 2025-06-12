@@ -8,15 +8,14 @@ import org.apache.poi.ss.usermodel.Workbook;
 import org.apache.poi.ss.usermodel.WorkbookFactory;
 import org.apache.poi.ss.util.NumberToTextConverter;
 import org.testng.annotations.DataProvider;
+import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
-import project1_Amazon_Src.Amazon_HomePage;
-import project1_Amazon_Src.Amazon_LoginPage;
-
+@Listeners(Airline_ITestListener.class)
 public class TC6_Econmy_Buisness_FirstClses extends Airline_BaseClass
 {
-	@Test (dataProvider="UnPwdExcel")
-	public void Search_Ecnmy_Business_FirstClses(String username, String password)
+	@Test (dataProvider="UnPwdExcel", retryAnalyzer=Airline_RetryAnalyzer.class)
+	public void SearchTC6_Ecnmy_Business_FirstClses(String username, String password)
 	{
 		
 	        // 6 Validate search results for different classes (economy, business, first class).
@@ -26,15 +25,7 @@ public class TC6_Econmy_Buisness_FirstClses extends Airline_BaseClass
 		
 	           System.out.println("Title is-> " + driver.getTitle());
 	           
-	        Amazon_HomePage hp= new Amazon_HomePage(driver);
-	               hp.HoverOver(driver);
-	               hp.Signin();
-	   
-	        Amazon_LoginPage lp= new Amazon_LoginPage(driver);
-	                lp.Un(username);
-	                lp.ContinueButton();
-	                lp.Pwd(password);
-	                lp.SigninPress();
+	       
 	        
 	            
 	              

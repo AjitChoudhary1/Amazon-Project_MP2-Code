@@ -1,6 +1,8 @@
 package project1_Amazon_Src;
 
+import java.time.Duration;
 import java.util.Iterator;
+import java.util.List;
 import java.util.Set;
 
 import org.openqa.selenium.Keys;
@@ -8,10 +10,17 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
+import org.testng.asserts.SoftAssert;
 
 public class Amazon_ProductPage3                  // For TC10
 {
 	   WebDriver driver;
+	   
+		SoftAssert s1= new SoftAssert();
+	   
+	   WebDriverWait wait= new WebDriverWait(driver, Duration.ofSeconds(10));
 		
 		//step-1 Locate component
 		
@@ -36,15 +45,37 @@ public class Amazon_ProductPage3                  // For TC10
 		   WebElement closemark;
            */
 		
+		@FindBy(xpath="//a[@class='a-link-normal s-no-outline']")
+		List<WebElement> allproduct;
+		
+		@FindBy(xpath="//h1[@class='a-size-medium-plus a-color-base sw-atc-text a-text-bold']")
+		  WebElement addtocartmsg;
+		
+		@FindBy(xpath="//h2[@id=\"sc-active-items-header\"]")
+		  WebElement deletemsg;
+		
 		//step-2 Separate method for each component
+		
 		
 		public void SearchProduct()
 		{
+	    	 wait.until(ExpectedConditions.visibilityOf(searchproduct));
 			searchproduct.sendKeys("Abstract Shirt" + Keys.ENTER);
+			
+			            // Assertion 1
+			   s1.assertEquals(allproduct.size()>20, true);
+		     
 		}
+		
 		public void FirstProdClick() 
 		{
+	    	 wait.until(ExpectedConditions.visibilityOf(clickfirstprod));
 			clickfirstprod.click();
+			
+			             // Assertion 2
+		    // s1.assertEquals(driver.getTitle(), "Amazon.in : Abstract Shirt");
+		     
+		         //     System.out.println("Title is-> " + driver.getTitle());
 		}
 		
 		public void ControlChild(WebDriver driver)
@@ -67,14 +98,34 @@ public class Amazon_ProductPage3                  // For TC10
 		
 		public void AddToCart()
 		{
+	    	 wait.until(ExpectedConditions.visibilityOf(addtocart));
 			addtocart.click();
+			
+			         // Assertion 3	          
+			  s1.assertEquals(addtocartmsg.getText(), "Added to cart");  
+			         
+			                String addtocartmsg1= addtocartmsg.getText();
+			                        System.out.println(addtocartmsg1);
 		}
 		
 		
 		public void CartOpen()
 		{
+	    	 wait.until(ExpectedConditions.visibilityOf(gotocart));
 			gotocart.click();
+			
+	    	 wait.until(ExpectedConditions.visibilityOf(delete));
 			delete.click();
+			
+			           // Assertion 4	          
+			  s1.assertEquals(deletemsg.getText(), "Shopping Cart");  
+			         
+			                String deletemsg1= deletemsg.getText();
+			                        System.out.println(deletemsg1);
+			                        
+			                      //  System.out.println("Title is-> " + driver.getTitle());
+			   		              
+			               	        s1.assertAll("All Assertion Not Passed");
 		}
 
 		
@@ -83,7 +134,6 @@ public class Amazon_ProductPage3                  // For TC10
 		public Amazon_ProductPage3(WebDriver driver)
 		{
 			PageFactory.initElements(driver, this);
-			
 		}
 
 }

@@ -19,7 +19,6 @@
 			<class name="project1_Amazon.X_TC13_Apply_CouponCode" />
 			<class name="project1_Amazon.U_TC10_Add_Update_RemoveCart" />
 			<class name="project1_Amazon.TC8_ProductSort" />
-			<class name="project1_Amazon.TC1_Register" />
 			<class name="project1_Amazon.Y_TC14_StarRating" />
 		</classes>
 	</test> <!--
@@ -44,7 +43,6 @@
 			<class name="project1_Amazon.X_TC13_Apply_CouponCode" />
 			<class name="project1_Amazon.U_TC10_Add_Update_RemoveCart" />
 			<class name="project1_Amazon.TC8_ProductSort" />
-			<class name="project1_Amazon.TC1_Register" />
 			<class name="project1_Amazon.Y_TC14_StarRating" />
 		</classes>
 	</test> <!--

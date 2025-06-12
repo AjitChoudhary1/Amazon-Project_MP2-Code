@@ -8,15 +8,14 @@ import org.apache.poi.ss.usermodel.Workbook;
 import org.apache.poi.ss.usermodel.WorkbookFactory;
 import org.apache.poi.ss.util.NumberToTextConverter;
 import org.testng.annotations.DataProvider;
+import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
-import project1_Amazon_Src.Amazon_HomePage;
-import project1_Amazon_Src.Amazon_LoginPage;
-
+@Listeners(Airline_ITestListener.class)
 public class W_TC12_Login_SrchFlight_Logout extends Airline_BaseClass
 {
-	@Test (dataProvider="UnPwdExcel")
-	public void Login_SearchFlight_Logout(String username, String password)
+	@Test (dataProvider="UnPwdExcel", retryAnalyzer=Airline_RetryAnalyzer.class)
+	public void LoginTC12_SearchFlight_Logout(String username, String password)
 	{
 		
 	        // 12 Login to page,search the flight and logout
@@ -24,15 +23,7 @@ public class W_TC12_Login_SrchFlight_Logout extends Airline_BaseClass
 		
 	           System.out.println("Title is-> " + driver.getTitle());
 	           
-	        Amazon_HomePage hp= new Amazon_HomePage(driver);
-	               hp.HoverOver(driver);
-	               hp.Signin();
-	   
-	        Amazon_LoginPage lp= new Amazon_LoginPage(driver);
-	                lp.Un(username);
-	                lp.ContinueButton();
-	                lp.Pwd(password);
-	                lp.SigninPress();
+	       
 	        
 	            
 	              

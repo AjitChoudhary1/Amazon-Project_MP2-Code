@@ -1,23 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
     <line>
       <![CDATA[Browser Is Launched Sucessfully]]>
     </line>
     <line>
+      <![CDATA[Test Case Is Pass]]>
+    </line>
+    <line>
       <![CDATA[Browser Is Closed Sucessfully]]>
     </line>
   </reporter-output>
-  <suite started-at="2025-06-02T15:07:51 IST" name="Default suite" finished-at="2025-06-02T15:07:56 IST" duration-ms="5384">
+  <suite started-at="2025-06-11T20:52:39 IST" name="Default suite" finished-at="2025-06-11T20:52:55 IST" duration-ms="15868">
     <groups>
     </groups>
-    <test started-at="2025-06-02T15:07:51 IST" name="Default test" finished-at="2025-06-02T15:07:56 IST" duration-ms="5384">
-      <class name="project2_Airline.TC1_Register">
-        <test-method is-config="true" signature="Launching(java.lang.String)[pri:0, instance:project2_Airline.TC1_Register@69e153c5]" started-at="2025-06-02T15:07:51 IST" name="Launching" finished-at="2025-06-02T15:07:56 IST" duration-ms="4946" status="PASS">
+    <test started-at="2025-06-11T20:52:39 IST" name="Default test" finished-at="2025-06-11T20:52:55 IST" duration-ms="15868">
+      <class name="project1_Amazon.TC2_Login">
+        <test-method is-config="true" signature="Launching(java.lang.String)[pri:0, instance:project1_Amazon.TC2_Login@6440112d]" started-at="2025-06-11T20:52:39 IST" name="Launching" finished-at="2025-06-11T20:52:45 IST" duration-ms="6094" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[chrome]]>
+                <![CDATA[edge]]>
               </value>
             </param>
           </params>
@@ -27,56 +30,21 @@
             </line>
           </reporter-output>
         </test-method> <!-- Launching -->
-        <test-method signature="Register_ToAirIndia()[pri:0, instance:project2_Airline.TC1_Register@69e153c5]" started-at="2025-06-02T15:07:56 IST" name="Register_ToAirIndia" finished-at="2025-06-02T15:07:56 IST" duration-ms="377" status="FAIL">
-          <exception class="java.util.NoSuchElementException">
-            <full-stacktrace>
-              <![CDATA[java.util.NoSuchElementException
-at java.base/java.util.LinkedHashMap$LinkedHashIterator.nextNode(LinkedHashMap.java:758)
-at java.base/java.util.LinkedHashMap$LinkedKeyIterator.next(LinkedHashMap.java:778)
-at project2_Airline_Src.Airline_RegisterPage.RAAccount(Airline_RegisterPage.java:315)
-at project2_Airline.TC1_Register.Register_ToAirIndia(TC1_Register.java:36)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:741)
-at org.testng.TestRunner.run(TestRunner.java:616)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-at org.testng.TestNG.runSuites(TestNG.java:1112)
-at org.testng.TestNG.run(TestNG.java:1079)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.util.NoSuchElementException -->
+        <test-method signature="LoginTC2_ToAmazon()[pri:0, instance:project1_Amazon.TC2_Login@6440112d]" started-at="2025-06-11T20:52:45 IST" name="LoginTC2_ToAmazon" finished-at="2025-06-11T20:52:54 IST" duration-ms="9533" status="PASS">
           <reporter-output>
+            <line>
+              <![CDATA[Test Case Is Pass]]>
+            </line>
           </reporter-output>
-        </test-method> <!-- Register_ToAirIndia -->
-        <test-method is-config="true" signature="Closing()[pri:0, instance:project2_Airline.TC1_Register@69e153c5]" started-at="2025-06-02T15:07:56 IST" name="Closing" finished-at="2025-06-02T15:07:56 IST" duration-ms="1" status="PASS">
+        </test-method> <!-- LoginTC2_ToAmazon -->
+        <test-method is-config="true" signature="Closing()[pri:0, instance:project1_Amazon.TC2_Login@6440112d]" started-at="2025-06-11T20:52:55 IST" name="Closing" finished-at="2025-06-11T20:52:55 IST" duration-ms="3" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Browser Is Closed Sucessfully]]>
             </line>
           </reporter-output>
         </test-method> <!-- Closing -->
-      </class> <!-- project2_Airline.TC1_Register -->
+      </class> <!-- project1_Amazon.TC2_Login -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
