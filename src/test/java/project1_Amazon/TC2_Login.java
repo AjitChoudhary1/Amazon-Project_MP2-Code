@@ -21,7 +21,8 @@ public class TC2_Login extends AmazonPr_BaseClass
 		
 	        // 2 Verify login is successful with correct email and password.
 	   
-		
+		Reporter_Manager.test = Reporter_Manager.extent.createTest("LoginTC2_ToAmazon");
+
                  System.out.println("Title is-> " + driver.getTitle());
 
 		
@@ -30,19 +31,29 @@ public class TC2_Login extends AmazonPr_BaseClass
 			           
 	        Amazon_HomePage hp= new Amazon_HomePage(driver);
 	               hp.HoverOver(driver);
+			                Reporter_Manager.test.info("HoverOver is done");
+
 	               hp.Signin();
 	   
 	        Amazon_LoginPage lp= new Amazon_LoginPage(driver);
 	                lp.Un();
+	 			             Reporter_Manager.test.info("Email id is entered");
+
 	                lp.ContinueButton();
 	                lp.Pwd();
+		 			         Reporter_Manager.test.info("Password is entered");
+
 	                lp.SigninPress();
 	                
 	       Amazon_LogoutPage lop= new Amazon_LogoutPage(driver);
 	                lop.HoverOverHelloAjit(driver);
 	                lop.SignOutPressChildW();
+		 			          Reporter_Manager.test.info("Logout is done");
 	                
-	                
+		 			   
+		 			          
+	 	 		              Reporter_Manager.test.pass("TestCase is Succesfull");
+
 	                
 	}               
 	                

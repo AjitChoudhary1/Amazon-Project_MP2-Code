@@ -18,8 +18,9 @@ public class TC5_SearchProduct extends AmazonPr_BaseClass
 	   {
 		 
 		  // 5 Test searching for products using its name like shoe
-		   
 		 
+			Reporter_Manager.test = Reporter_Manager.extent.createTest("SearchProductTC5_Amazon");
+			
 		   System.out.println("Title is-> " + driver.getTitle());
 		   
 		   Excel_DataFetching d1=new Excel_DataFetching();
@@ -27,18 +28,28 @@ public class TC5_SearchProduct extends AmazonPr_BaseClass
          
 	        Amazon_HomePage hp= new Amazon_HomePage(driver);
 	               hp.HoverOver(driver);
+			                Reporter_Manager.test.info("HoverOver is done");
+
 	               hp.Signin();
 	   
 	        Amazon_LoginPage lp= new Amazon_LoginPage(driver);
 	                lp.Un();
+		 			         Reporter_Manager.test.info("Email id is entered");
+
 	                lp.ContinueButton();
 	                lp.Pwd();
+		 			         Reporter_Manager.test.info("Password is entered");
+
 	                lp.SigninPress();
 		   
 		          
 		         hp.SearchProduct();
+	 			              Reporter_Manager.test.info("Product search done");
+
+	 			              
 		   
-		        
+	 	 		              Reporter_Manager.test.pass("TestCase is Succesfull");
+
 		   
 	   }
      

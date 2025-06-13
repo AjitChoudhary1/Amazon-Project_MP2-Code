@@ -21,6 +21,8 @@ public class TC6_SearchingByFilters extends AmazonPr_BaseClass
 		 
 		 // 6 Verify that searching with filters (e.g., category, price range) fields accurate results.
 		 
+			Reporter_Manager.test = Reporter_Manager.extent.createTest("SearchProductTC6_FilterAmazon");
+
 		   SoftAssert s1= new SoftAssert();
 		   
 		   System.out.println("Title is-> " + driver.getTitle());
@@ -30,25 +32,34 @@ public class TC6_SearchingByFilters extends AmazonPr_BaseClass
          
 	        Amazon_HomePage hp= new Amazon_HomePage(driver);
 	               hp.HoverOver(driver);
+			                 Reporter_Manager.test.info("HoverOver is done");
+
 	               hp.Signin();
 	               
 	   
 	        Amazon_LoginPage lp= new Amazon_LoginPage(driver);
 	                lp.Un();
+		 			          Reporter_Manager.test.info("Email id is entered");
+
 	                lp.ContinueButton();
 	                lp.Pwd();
+		 			          Reporter_Manager.test.info("Password is entered");
+
 	                lp.SigninPress();
 		   
 		          
 	       Amazon_SearchPage sp= new Amazon_SearchPage(driver);
 	                sp.SearchProduct();
+	 			                Reporter_Manager.test.info("Product search done");
+
 	                sp.CheckBoxClick();
 	                sp.PriceClick();
 	                sp.SizeClick();
 	                sp.RatingClick();
 	               // sp.Validation_Success();
 	                
-	                
+		 	 		             Reporter_Manager.test.pass("TestCase is Succesfull");
+   
 	                
 	                
 	                String title=driver.getTitle();

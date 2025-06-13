@@ -3,27 +3,33 @@
 <suite name="Failed suite [Amazon Project Suite]" guice-stage="DEVELOPMENT" verbose="0">
   <test thread-count="5" name="Amazon Project TestCases Test(failed)" verbose="0">
     <classes>
-      <class name="project1_Amazon.Z_TC16_SelectCard_PaymentMthd">
-        <methods>
-          <include name="SelectTC16_CardPaymentAmazon"/>
-          <include name="Launching"/>
-          <include name="Closing"/>
-        </methods>
-      </class> <!-- project1_Amazon.Z_TC16_SelectCard_PaymentMthd -->
-      <class name="project1_Amazon.V_TC11_BuyCheckout_PaymentReview">
-        <methods>
-          <include name="Launching"/>
-          <include name="BuyProductTC11_Checkout_PaymentAmazon"/>
-          <include name="Closing"/>
-        </methods>
-      </class> <!-- project1_Amazon.V_TC11_BuyCheckout_PaymentReview -->
       <class name="project1_Amazon.Y_TC14_StarRating">
         <methods>
+          <include name="extentreport1"/>
           <include name="Star5TC14_Rating_LastOrder_Amazon"/>
           <include name="Launching"/>
           <include name="Closing"/>
+          <include name="extentreport"/>
         </methods>
       </class> <!-- project1_Amazon.Y_TC14_StarRating -->
+      <class name="project1_Amazon.X_TC13_Apply_CouponCode">
+        <methods>
+          <include name="extentreport1"/>
+          <include name="ApplyCouponCodeTC13_OrderingAmazon"/>
+          <include name="Launching"/>
+          <include name="Closing"/>
+          <include name="extentreport"/>
+        </methods>
+      </class> <!-- project1_Amazon.X_TC13_Apply_CouponCode -->
+      <class name="project1_Amazon.W_TC12_SelectEach_PaymentMthd">
+        <methods>
+          <include name="extentreport1"/>
+          <include name="Launching"/>
+          <include name="Closing"/>
+          <include name="extentreport"/>
+          <include name="SelectTC12_AllPaymentAmazon"/>
+        </methods>
+      </class> <!-- project1_Amazon.W_TC12_SelectEach_PaymentMthd -->
     </classes>
   </test> <!-- Amazon Project TestCases Test(failed) -->
 </suite> <!-- Failed suite [Amazon Project Suite] -->

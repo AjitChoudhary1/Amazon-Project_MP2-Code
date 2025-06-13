@@ -21,6 +21,8 @@ public class TC8_ProductSort extends AmazonPr_BaseClass
 	   {
 		  // 8 Check if products can be sorted by relevance, price, rating, etc.
 		   
+			Reporter_Manager.test = Reporter_Manager.extent.createTest("ProductTC8_SortAmazon");
+
 		   System.out.println("Title is-> " + driver.getTitle());
 		   
 		   Excel_DataFetching d1=new Excel_DataFetching();
@@ -28,16 +30,24 @@ public class TC8_ProductSort extends AmazonPr_BaseClass
          
 	        Amazon_HomePage hp= new Amazon_HomePage(driver);
 	               hp.HoverOver(driver);
+			                Reporter_Manager.test.info("HoverOver is done");
+
 	               hp.Signin();
 	   
 	        Amazon_LoginPage lp= new Amazon_LoginPage(driver);
 	                lp.Un();
+	                        Reporter_Manager.test.info("Username is entered");
+
 	                lp.ContinueButton();
 	                lp.Pwd();
+                            Reporter_Manager.test.info("Password is entered");
+
 	                lp.SigninPress();
 	                
 	       Amazon_SearchPage sp= new Amazon_SearchPage(driver);
 	                 sp.SearchProduct();
+	                         Reporter_Manager.test.info("Search product is done");
+
 	                 sp.CheckBoxClick();
 	                
 		          
@@ -49,7 +59,8 @@ public class TC8_ProductSort extends AmazonPr_BaseClass
 	              
 		   
 		   
-		   
+	 	 		             Reporter_Manager.test.pass("TestCase is Succesfull");
+
 	   }
      
 	   

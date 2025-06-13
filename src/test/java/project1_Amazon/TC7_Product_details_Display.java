@@ -21,6 +21,8 @@ public class TC7_Product_details_Display extends AmazonPr_BaseClass
 		 
 		  // 7 Ensure that the product detail page displays all necessary information (price, reviews, description).
 		 
+			Reporter_Manager.test = Reporter_Manager.extent.createTest("ProductDetailsTC7_DisplayAmazon");
+
 		   System.out.println("Title is-> " + driver.getTitle());
 		   
 		   Excel_DataFetching d1=new Excel_DataFetching();
@@ -28,24 +30,34 @@ public class TC7_Product_details_Display extends AmazonPr_BaseClass
          
 	        Amazon_HomePage hp= new Amazon_HomePage(driver);
 	               hp.HoverOver(driver);
+			               Reporter_Manager.test.info("HoverOver is done");
+
 	               hp.Signin();
 	   
 	        Amazon_LoginPage lp= new Amazon_LoginPage(driver);
 	                lp.Un();
+			                Reporter_Manager.test.info("Username is entered");
+
 	                lp.ContinueButton();
 	                lp.Pwd();
+			                 Reporter_Manager.test.info("Password is entered");
+
 	                lp.SigninPress();
 		   
 		          
 	         Amazon_ProductPage1 pp= new Amazon_ProductPage1(driver);
 		            pp.SearchProduct();
+			                  Reporter_Manager.test.info("Search product is done");
+
 		            pp.FirstProdClick();
 		            pp.ControlChild(driver);
-		             
+			                 Reporter_Manager.test.info("Control given to the child window");
+
 		            
 		            
 		            
-		            
+		 	 		          Reporter_Manager.test.pass("TestCase is Succesfull");
+
 		            
 		            
 		            

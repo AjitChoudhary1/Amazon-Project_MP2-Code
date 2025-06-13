@@ -20,6 +20,8 @@ public class U_TC10_Add_Update_RemoveCart extends AmazonPr_BaseClass
 		 
 		  // 10 Test updating item quantities and removing items from the cart.
 		   
+			Reporter_Manager.test = Reporter_Manager.extent.createTest("AddProductTC10_RemoveCartAmazon");
+
 		   System.out.println("Title is-> " + driver.getTitle());
 		   
 		   Excel_DataFetching d1=new Excel_DataFetching();
@@ -27,16 +29,24 @@ public class U_TC10_Add_Update_RemoveCart extends AmazonPr_BaseClass
          
 	        Amazon_HomePage hp= new Amazon_HomePage(driver);
 	               hp.HoverOver(driver);
+			                  Reporter_Manager.test.info("HoverOver is done");
+
 	               hp.Signin();
 	   
 	        Amazon_LoginPage lp= new Amazon_LoginPage(driver);
 	                lp.Un();
+	                        Reporter_Manager.test.info("Username is entered");
+
 	                lp.ContinueButton();
 	                lp.Pwd();
+	                        Reporter_Manager.test.info("Password is entered");
+
 	                lp.SigninPress();
 		   
 		    Amazon_ProductPage3 pp= new Amazon_ProductPage3(driver);
 		           pp.SearchProduct();
+	                          Reporter_Manager.test.info("Product searched");
+
 		           pp.FirstProdClick();
 		           pp.ControlChild(driver);
 		           pp.AddToCart();
@@ -46,12 +56,15 @@ public class U_TC10_Add_Update_RemoveCart extends AmazonPr_BaseClass
 		           driver.navigate().back();
 		           
 		           pp.AddToCart();
+	                           Reporter_Manager.test.info("Added to cart");
+
 		           pp.CartOpen();
 		           
 		           
 		    
 	                
-	                
+	 	 		               Reporter_Manager.test.pass("TestCase is Succesfull");
+
 		   
 		   
 		   

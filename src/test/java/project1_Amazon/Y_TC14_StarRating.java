@@ -21,7 +21,8 @@ public class Y_TC14_StarRating extends AmazonPr_BaseClass
 		 
 		  // 14 Go to orders page and click on your last ordered product and give 5 star ratings
 
-		 
+			Reporter_Manager.test = Reporter_Manager.extent.createTest("Star5TC14_Rating_LastOrder_Amazon");
+
 		   System.out.println("Title is-> " + driver.getTitle());
 		   
 		   Excel_DataFetching d1=new Excel_DataFetching();
@@ -29,12 +30,18 @@ public class Y_TC14_StarRating extends AmazonPr_BaseClass
          
 	        Amazon_HomePage hp= new Amazon_HomePage(driver);
 	               hp.HoverOver(driver);
+			                   Reporter_Manager.test.info("HoverOver is done");
+
 	               hp.Signin();
 	   
 	        Amazon_LoginPage lp= new Amazon_LoginPage(driver);
 	                lp.UnTC14();
+                              Reporter_Manager.test.info("Username is entered");
+
 	                lp.ContinueButton();
 	                lp.PwdTC14();
+                               Reporter_Manager.test.info("Password is entered");
+
 	                lp.SigninPressTC14();
 		   
 	                hp.HoverOver(driver);
@@ -45,10 +52,14 @@ public class Y_TC14_StarRating extends AmazonPr_BaseClass
 	      Amazon_LogoutPage lop= new Amazon_LogoutPage(driver);
 	                lop.HoverOverHelloAjit(driver);
 	                lop.SignOutPressChildW();
+                               Reporter_Manager.test.info("Signout is done");
+
 		   
 		   
 		   
 		   
+		 	 		          Reporter_Manager.test.pass("TestCase is Succesfull");
+
 	   }
      
 }	   

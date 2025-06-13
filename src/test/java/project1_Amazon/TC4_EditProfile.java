@@ -20,6 +20,7 @@ public class TC4_EditProfile extends AmazonPr_BaseClass
 		   
 		  // 4 Check if a user can successfully edit their profile information.
 		   
+			Reporter_Manager.test = Reporter_Manager.extent.createTest("EditProfileTC4_Amazon");
 		   
 		   System.out.println("Title is-> " + driver.getTitle());
 		   
@@ -28,12 +29,18 @@ public class TC4_EditProfile extends AmazonPr_BaseClass
            
 	        Amazon_HomePage hp= new Amazon_HomePage(driver);
 	               hp.HoverOver(driver);
+ 			               Reporter_Manager.test.info("HoverOver is done");
+
 	               hp.Signin();
 	   
 	        Amazon_LoginPage lp= new Amazon_LoginPage(driver);
 	                lp.Un();
+	 			           Reporter_Manager.test.info("Email id is entered");
+
 	                lp.ContinueButton();
 	                lp.Pwd();
+		 			        Reporter_Manager.test.info("Password is entered");
+
 	                lp.SigninPress();
 		   
 		          hp.HoverOver(driver);
@@ -41,8 +48,12 @@ public class TC4_EditProfile extends AmazonPr_BaseClass
 		   Amazon_ProfilePage pp= new Amazon_ProfilePage(driver);
 		         pp.YourAccount();
 		         pp.EditProfile();
+	 			             Reporter_Manager.test.info("Profile editing done");
+
 		   
-		   
+	 			             
+  	 	 		             Reporter_Manager.test.pass("TestCase is Succesfull");
+
 		   
 		         
 	   }

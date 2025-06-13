@@ -20,6 +20,8 @@ public class TC9_AddToCart extends AmazonPr_BaseClass
 		 
 		    // 9 Verify that items can be added to the shopping cart from product pages.
 		   
+			Reporter_Manager.test = Reporter_Manager.extent.createTest("ProductTC9_AddToCartAmazon");
+
 		   System.out.println("Title is-> " + driver.getTitle());
 		   
 		   Excel_DataFetching d1=new Excel_DataFetching();
@@ -27,21 +29,34 @@ public class TC9_AddToCart extends AmazonPr_BaseClass
          
 	        Amazon_HomePage hp= new Amazon_HomePage(driver);
 	               hp.HoverOver(driver);
+			                   Reporter_Manager.test.info("HoverOver is done");
+
 	               hp.Signin();
 	   
 	        Amazon_LoginPage lp= new Amazon_LoginPage(driver);
 	                lp.Un();
+	                           Reporter_Manager.test.info("Username is entered");
+
 	                lp.ContinueButton();
 	                lp.Pwd();
+	                          Reporter_Manager.test.info("Password is entered");
+
 	                lp.SigninPress();
 		   
 	       Amazon_ProductPage1 pp= new Amazon_ProductPage1(driver);
 	                  pp.SearchProduct();
+	                          Reporter_Manager.test.info("Product search is done");
+
 	                  pp.FirstProdClick();
 	                  pp.ControlChild(driver);
+	                           Reporter_Manager.test.info("Control given to the child window");
+
 		   
 		   
 		   
+	                  
+		 	 		          Reporter_Manager.test.pass("TestCase is Succesfull");
+
 	   }
      
 	   

@@ -7,13 +7,28 @@ import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.edge.EdgeOptions;
 import org.testng.Reporter;
 import org.testng.annotations.AfterMethod;
+import org.testng.annotations.AfterSuite;
 import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.BeforeSuite;
 import org.testng.annotations.Optional;
 import org.testng.annotations.Parameters;
 
 
+
 public class AmazonPr_BaseClass extends Amazon_ITestListener
 {
+	
+	@BeforeSuite
+	public void extentreport()
+	{
+		Reporter_Manager.startReport();
+	}
+	
+	@AfterSuite
+	public void extentreport1()
+	{
+		Reporter_Manager.flushReport();
+	}
 	
 	 @BeforeMethod
 	 @Parameters("Browsers")

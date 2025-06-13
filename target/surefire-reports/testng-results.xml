@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results retried="5" ignored="0" total="20" passed="12" failed="3" skipped="0">
+<testng-results retried="4" ignored="0" total="19" passed="12" failed="3" skipped="0">
   <reporter-output>
     <line>
       <![CDATA[Browser Is Launched Sucessfully]]>
@@ -23,6 +23,69 @@
       <![CDATA[Browser Is Launched Sucessfully]]>
     </line>
     <line>
+      <![CDATA[Test Case Is Pass]]>
+    </line>
+    <line>
+      <![CDATA[Browser Is Closed Sucessfully]]>
+    </line>
+    <line>
+      <![CDATA[Browser Is Launched Sucessfully]]>
+    </line>
+    <line>
+      <![CDATA[Test Case Is Pass]]>
+    </line>
+    <line>
+      <![CDATA[Browser Is Closed Sucessfully]]>
+    </line>
+    <line>
+      <![CDATA[Browser Is Launched Sucessfully]]>
+    </line>
+    <line>
+      <![CDATA[Test Case Is Pass]]>
+    </line>
+    <line>
+      <![CDATA[Browser Is Closed Sucessfully]]>
+    </line>
+    <line>
+      <![CDATA[Browser Is Launched Sucessfully]]>
+    </line>
+    <line>
+      <![CDATA[Test Case Is Pass]]>
+    </line>
+    <line>
+      <![CDATA[Browser Is Closed Sucessfully]]>
+    </line>
+    <line>
+      <![CDATA[Browser Is Launched Sucessfully]]>
+    </line>
+    <line>
+      <![CDATA[Test Case Is Pass]]>
+    </line>
+    <line>
+      <![CDATA[Browser Is Closed Sucessfully]]>
+    </line>
+    <line>
+      <![CDATA[Browser Is Launched Sucessfully]]>
+    </line>
+    <line>
+      <![CDATA[Test Case Is Pass]]>
+    </line>
+    <line>
+      <![CDATA[Browser Is Closed Sucessfully]]>
+    </line>
+    <line>
+      <![CDATA[Browser Is Launched Sucessfully]]>
+    </line>
+    <line>
+      <![CDATA[Test Case Is Pass]]>
+    </line>
+    <line>
+      <![CDATA[Browser Is Closed Sucessfully]]>
+    </line>
+    <line>
+      <![CDATA[Browser Is Launched Sucessfully]]>
+    </line>
+    <line>
       <![CDATA[Browser Is Closed Sucessfully]]>
     </line>
     <line>
@@ -47,33 +110,6 @@
       <![CDATA[Browser Is Launched Sucessfully]]>
     </line>
     <line>
-      <![CDATA[Test Case Is Pass]]>
-    </line>
-    <line>
-      <![CDATA[Browser Is Closed Sucessfully]]>
-    </line>
-    <line>
-      <![CDATA[Browser Is Launched Sucessfully]]>
-    </line>
-    <line>
-      <![CDATA[Test Case Is Pass]]>
-    </line>
-    <line>
-      <![CDATA[Browser Is Closed Sucessfully]]>
-    </line>
-    <line>
-      <![CDATA[Browser Is Launched Sucessfully]]>
-    </line>
-    <line>
-      <![CDATA[Test Case Is Pass]]>
-    </line>
-    <line>
-      <![CDATA[Browser Is Closed Sucessfully]]>
-    </line>
-    <line>
-      <![CDATA[Browser Is Launched Sucessfully]]>
-    </line>
-    <line>
       <![CDATA[Browser Is Closed Sucessfully]]>
     </line>
     <line>
@@ -96,48 +132,6 @@
     </line>
     <line>
       <![CDATA[Browser Is Launched Sucessfully]]>
-    </line>
-    <line>
-      <![CDATA[Browser Is Closed Sucessfully]]>
-    </line>
-    <line>
-      <![CDATA[Browser Is Launched Sucessfully]]>
-    </line>
-    <line>
-      <![CDATA[Test Case Is Pass]]>
-    </line>
-    <line>
-      <![CDATA[Browser Is Closed Sucessfully]]>
-    </line>
-    <line>
-      <![CDATA[Browser Is Launched Sucessfully]]>
-    </line>
-    <line>
-      <![CDATA[Test Case Is Pass]]>
-    </line>
-    <line>
-      <![CDATA[Browser Is Closed Sucessfully]]>
-    </line>
-    <line>
-      <![CDATA[Browser Is Launched Sucessfully]]>
-    </line>
-    <line>
-      <![CDATA[Test Case Is Pass]]>
-    </line>
-    <line>
-      <![CDATA[Browser Is Closed Sucessfully]]>
-    </line>
-    <line>
-      <![CDATA[Browser Is Launched Sucessfully]]>
-    </line>
-    <line>
-      <![CDATA[Browser Is Closed Sucessfully]]>
-    </line>
-    <line>
-      <![CDATA[Browser Is Launched Sucessfully]]>
-    </line>
-    <line>
-      <![CDATA[Test Case Is Pass]]>
     </line>
     <line>
       <![CDATA[Browser Is Closed Sucessfully]]>
@@ -167,12 +161,12 @@
       <![CDATA[Browser Is Closed Sucessfully]]>
     </line>
   </reporter-output>
-  <suite started-at="2025-06-11T00:08:10 IST" name="Amazon Project Suite" finished-at="2025-06-11T00:19:59 IST" duration-ms="708977">
+  <suite started-at="2025-06-13T22:59:45 IST" name="Amazon Project Suite" finished-at="2025-06-13T23:10:18 IST" duration-ms="632619">
     <groups>
     </groups>
-    <test started-at="2025-06-11T00:08:10 IST" name="Amazon Project TestCases Test" finished-at="2025-06-11T00:19:59 IST" duration-ms="708977">
-      <class name="project1_Amazon.U_TC10_Add_Update_RemoveCart">
-        <test-method is-config="true" signature="Launching(java.lang.String)[pri:0, instance:project1_Amazon.U_TC10_Add_Update_RemoveCart@5b218417]" started-at="2025-06-11T00:16:06 IST" name="Launching" finished-at="2025-06-11T00:16:15 IST" duration-ms="8899" status="PASS">
+    <test started-at="2025-06-13T22:59:45 IST" name="Amazon Project TestCases Test" finished-at="2025-06-13T23:10:18 IST" duration-ms="632619">
+      <class name="project1_Amazon.W_TC12_SelectEach_PaymentMthd">
+        <test-method is-config="true" signature="Launching(java.lang.String)[pri:0, instance:project1_Amazon.W_TC12_SelectEach_PaymentMthd@5386659f]" started-at="2025-06-13T23:03:42 IST" name="Launching" finished-at="2025-06-13T23:03:49 IST" duration-ms="7061" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -186,31 +180,29 @@
             </line>
           </reporter-output>
         </test-method> <!-- Launching -->
-        <test-method retried="true" signature="AddProductTC10_RemoveCartAmazon()[pri:0, instance:project1_Amazon.U_TC10_Add_Update_RemoveCart@5b218417]" started-at="2025-06-11T00:16:15 IST" name="AddProductTC10_RemoveCartAmazon" finished-at="2025-06-11T00:16:48 IST" duration-ms="33781" status="SKIP">
-          <exception class="org.openqa.selenium.StaleElementReferenceException">
+        <test-method retried="true" signature="SelectTC12_AllPaymentAmazon()[pri:0, instance:project1_Amazon.W_TC12_SelectEach_PaymentMthd@5386659f]" started-at="2025-06-13T23:03:49 IST" name="SelectTC12_AllPaymentAmazon" finished-at="2025-06-13T23:04:35 IST" duration-ms="46008" status="SKIP">
+          <exception class="org.openqa.selenium.ElementClickInterceptedException">
             <message>
-              <![CDATA[stale element reference: stale element not found in the current frame
+              <![CDATA[element click intercepted: Element <input id="pp-6H3mAF-139" type="radio" name="ppw-instrumentRowSelection" value="instrumentId=EMI&amp;isExpired=false&amp;paymentMethod=CC&amp;tfxEligible=false" disabled=""> is not clickable at point (91, 481). Other element would receive the click: <span role="radio">...</span>
   (Session info: MicrosoftEdge=137.0.3296.68)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
-Build info: version: '4.32.0', revision: 'd17c8aa950'
+Build info: version: '4.33.0', revision: '2c6aaad03a'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.11'
 Driver info: org.openqa.selenium.edge.EdgeDriver
-Command: [8b9a07879d9b4a3134d752af43f0c653, getElementText {id=f.A579778BA65B552ACA58C53A1CB11BAF.d.A1D1F46F675DBB9C0D797D47C8F5F345.e.300}]
-Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 137.0.3296.68, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:63264}, msedge: {msedgedriverVersion: 137.0.3296.68 (f3affdcf267b..., userDataDir: C:\Users\ajitc\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63264/devtoo..., se:cdpVersion: 137.0.3296.68, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[EdgeDriver: MicrosoftEdge on windows (8b9a07879d9b4a3134d752af43f0c653)] -> xpath: //h2[@id="sc-active-items-header"]]
-Session ID: 8b9a07879d9b4a3134d752af43f0c653]]>
+Command: [94462334f6275891e04d5f1efd47a892, clickElement {id=f.3C85F66B02CB64538A67930A5BF2BBF9.d.8F1103B42F4A04ED9C7282AF34D5BD6C.e.339}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 137.0.3296.68, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:57312}, msedge: {msedgedriverVersion: 137.0.3296.68 (f3affdcf267b..., userDataDir: C:\Users\ajitc\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57312/devtoo..., se:cdpVersion: 137.0.3296.68, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[EdgeDriver: MicrosoftEdge on windows (94462334f6275891e04d5f1efd47a892)] -> xpath: (//input[@name='ppw-instrumentRowSelection'])[5]]
+Session ID: 94462334f6275891e04d5f1efd47a892]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.StaleElementReferenceException: stale element reference: stale element not found in the current frame
+              <![CDATA[org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <input id="pp-6H3mAF-139" type="radio" name="ppw-instrumentRowSelection" value="instrumentId=EMI&amp;isExpired=false&amp;paymentMethod=CC&amp;tfxEligible=false" disabled=""> is not clickable at point (91, 481). Other element would receive the click: <span role="radio">...</span>
   (Session info: MicrosoftEdge=137.0.3296.68)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
-Build info: version: '4.32.0', revision: 'd17c8aa950'
+Build info: version: '4.33.0', revision: '2c6aaad03a'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.11'
 Driver info: org.openqa.selenium.edge.EdgeDriver
-Command: [8b9a07879d9b4a3134d752af43f0c653, getElementText {id=f.A579778BA65B552ACA58C53A1CB11BAF.d.A1D1F46F675DBB9C0D797D47C8F5F345.e.300}]
-Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 137.0.3296.68, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:63264}, msedge: {msedgedriverVersion: 137.0.3296.68 (f3affdcf267b..., userDataDir: C:\Users\ajitc\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63264/devtoo..., se:cdpVersion: 137.0.3296.68, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[EdgeDriver: MicrosoftEdge on windows (8b9a07879d9b4a3134d752af43f0c653)] -> xpath: //h2[@id="sc-active-items-header"]]
-Session ID: 8b9a07879d9b4a3134d752af43f0c653
+Command: [94462334f6275891e04d5f1efd47a892, clickElement {id=f.3C85F66B02CB64538A67930A5BF2BBF9.d.8F1103B42F4A04ED9C7282AF34D5BD6C.e.339}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 137.0.3296.68, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:57312}, msedge: {msedgedriverVersion: 137.0.3296.68 (f3affdcf267b..., userDataDir: C:\Users\ajitc\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57312/devtoo..., se:cdpVersion: 137.0.3296.68, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[EdgeDriver: MicrosoftEdge on windows (94462334f6275891e04d5f1efd47a892)] -> xpath: (//input[@name='ppw-instrumentRowSelection'])[5]]
+Session ID: 94462334f6275891e04d5f1efd47a892
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -222,149 +214,16 @@ at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpRespo
 at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
 at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
 at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:544)
 at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
-at org.openqa.selenium.remote.RemoteWebElement.getText(RemoteWebElement.java:191)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
 at jdk.internal.reflect.GeneratedMethodAccessor2.invoke(Unknown Source)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 at java.base/java.lang.reflect.Method.invoke(Method.java:568)
 at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
-at jdk.proxy2/jdk.proxy2.$Proxy13.getText(Unknown Source)
-at project1_Amazon_Src.Amazon_ProductPage3.CartOpen(Amazon_ProductPage3.java:123)
-at project1_Amazon.U_TC10_Add_Update_RemoveCart.AddProductTC10_RemoveCartAmazon(U_TC10_Add_Update_RemoveCart.java:43)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:741)
-at org.testng.TestRunner.run(TestRunner.java:616)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-at org.testng.TestNG.runSuites(TestNG.java:1112)
-at org.testng.TestNG.run(TestNG.java:1079)
-at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
-at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
-at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
-at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
-at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
-at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
-at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.StaleElementReferenceException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- AddProductTC10_RemoveCartAmazon -->
-        <test-method is-config="true" signature="Closing()[pri:0, instance:project1_Amazon.U_TC10_Add_Update_RemoveCart@5b218417]" started-at="2025-06-11T00:16:48 IST" name="Closing" finished-at="2025-06-11T00:16:48 IST" duration-ms="72" status="PASS">
-          <reporter-output>
-            <line>
-              <![CDATA[Browser Is Closed Sucessfully]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- Closing -->
-        <test-method is-config="true" signature="Launching(java.lang.String)[pri:0, instance:project1_Amazon.U_TC10_Add_Update_RemoveCart@5b218417]" started-at="2025-06-11T00:16:48 IST" name="Launching" finished-at="2025-06-11T00:17:01 IST" duration-ms="12460" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[edge]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-            <line>
-              <![CDATA[Browser Is Launched Sucessfully]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- Launching -->
-        <test-method signature="AddProductTC10_RemoveCartAmazon()[pri:0, instance:project1_Amazon.U_TC10_Add_Update_RemoveCart@5b218417]" started-at="2025-06-11T00:17:01 IST" name="AddProductTC10_RemoveCartAmazon" finished-at="2025-06-11T00:17:51 IST" duration-ms="50549" status="PASS">
-          <reporter-output>
-            <line>
-              <![CDATA[Test Case Is Pass]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- AddProductTC10_RemoveCartAmazon -->
-        <test-method is-config="true" signature="Closing()[pri:0, instance:project1_Amazon.U_TC10_Add_Update_RemoveCart@5b218417]" started-at="2025-06-11T00:17:52 IST" name="Closing" finished-at="2025-06-11T00:17:52 IST" duration-ms="25" status="PASS">
-          <reporter-output>
-            <line>
-              <![CDATA[Browser Is Closed Sucessfully]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- Closing -->
-      </class> <!-- project1_Amazon.U_TC10_Add_Update_RemoveCart -->
-      <class name="project1_Amazon.W_TC12_SelectEach_PaymentMthd">
-        <test-method is-config="true" signature="Launching(java.lang.String)[pri:0, instance:project1_Amazon.W_TC12_SelectEach_PaymentMthd@5e2c3d18]" started-at="2025-06-11T00:13:32 IST" name="Launching" finished-at="2025-06-11T00:13:41 IST" duration-ms="9509" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[edge]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-            <line>
-              <![CDATA[Browser Is Launched Sucessfully]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- Launching -->
-        <test-method retried="true" signature="SelectTC12_AllPaymentAmazon()[pri:0, instance:project1_Amazon.W_TC12_SelectEach_PaymentMthd@5e2c3d18]" started-at="2025-06-11T00:13:41 IST" name="SelectTC12_AllPaymentAmazon" finished-at="2025-06-11T00:14:15 IST" duration-ms="34276" status="SKIP">
-          <exception class="org.openqa.selenium.ElementClickInterceptedException">
-            <message>
-              <![CDATA[element click intercepted: Element <input id="pp-ONXIou-139" type="radio" name="ppw-instrumentRowSelection" value="instrumentId=EMI&amp;isExpired=false&amp;paymentMethod=CC&amp;tfxEligible=false" disabled=""> is not clickable at point (91, 655). Other element would receive the click: <span role="radio">...</span>
-  (Session info: MicrosoftEdge=137.0.3296.68)
-Build info: version: '4.32.0', revision: 'd17c8aa950'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.11'
-Driver info: org.openqa.selenium.edge.EdgeDriver
-Command: [945a0bf5eecbe5365f7ca233750cdd44, clickElement {id=f.252D609A50613FDE2162D18979E29B50.d.344852A5517CA132666477EC75131BF0.e.291}]
-Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 137.0.3296.68, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:61638}, msedge: {msedgedriverVersion: 137.0.3296.68 (f3affdcf267b..., userDataDir: C:\Users\ajitc\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:61638/devtoo..., se:cdpVersion: 137.0.3296.68, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[EdgeDriver: MicrosoftEdge on windows (945a0bf5eecbe5365f7ca233750cdd44)] -> xpath: (//input[@name='ppw-instrumentRowSelection'])[5]]
-Session ID: 945a0bf5eecbe5365f7ca233750cdd44]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <input id="pp-ONXIou-139" type="radio" name="ppw-instrumentRowSelection" value="instrumentId=EMI&amp;isExpired=false&amp;paymentMethod=CC&amp;tfxEligible=false" disabled=""> is not clickable at point (91, 655). Other element would receive the click: <span role="radio">...</span>
-  (Session info: MicrosoftEdge=137.0.3296.68)
-Build info: version: '4.32.0', revision: 'd17c8aa950'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.11'
-Driver info: org.openqa.selenium.edge.EdgeDriver
-Command: [945a0bf5eecbe5365f7ca233750cdd44, clickElement {id=f.252D609A50613FDE2162D18979E29B50.d.344852A5517CA132666477EC75131BF0.e.291}]
-Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 137.0.3296.68, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:61638}, msedge: {msedgedriverVersion: 137.0.3296.68 (f3affdcf267b..., userDataDir: C:\Users\ajitc\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:61638/devtoo..., se:cdpVersion: 137.0.3296.68, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[EdgeDriver: MicrosoftEdge on windows (945a0bf5eecbe5365f7ca233750cdd44)] -> xpath: (//input[@name='ppw-instrumentRowSelection'])[5]]
-Session ID: 945a0bf5eecbe5365f7ca233750cdd44
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
-at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
-at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
-at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
-at jdk.internal.reflect.GeneratedMethodAccessor3.invoke(Unknown Source)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
-at jdk.proxy2/jdk.proxy2.$Proxy13.click(Unknown Source)
+at jdk.proxy2/jdk.proxy2.$Proxy17.click(Unknown Source)
 at project1_Amazon_Src.Amazon_PaymentMethodPage.AllPaymentMethods(Amazon_PaymentMethodPage.java:138)
-at project1_Amazon.W_TC12_SelectEach_PaymentMthd.SelectTC12_AllPaymentAmazon(W_TC12_SelectEach_PaymentMthd.java:44)
+at project1_Amazon.W_TC12_SelectEach_PaymentMthd.SelectTC12_AllPaymentAmazon(W_TC12_SelectEach_PaymentMthd.java:55)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -403,14 +262,14 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SelectTC12_AllPaymentAmazon -->
-        <test-method is-config="true" signature="Closing()[pri:0, instance:project1_Amazon.W_TC12_SelectEach_PaymentMthd@5e2c3d18]" started-at="2025-06-11T00:14:16 IST" name="Closing" finished-at="2025-06-11T00:14:16 IST" duration-ms="13" status="PASS">
+        <test-method is-config="true" signature="Closing()[pri:0, instance:project1_Amazon.W_TC12_SelectEach_PaymentMthd@5386659f]" started-at="2025-06-13T23:04:35 IST" name="Closing" finished-at="2025-06-13T23:04:35 IST" duration-ms="17" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Browser Is Closed Sucessfully]]>
             </line>
           </reporter-output>
         </test-method> <!-- Closing -->
-        <test-method is-config="true" signature="Launching(java.lang.String)[pri:0, instance:project1_Amazon.W_TC12_SelectEach_PaymentMthd@5e2c3d18]" started-at="2025-06-11T00:14:16 IST" name="Launching" finished-at="2025-06-11T00:14:23 IST" duration-ms="7721" status="PASS">
+        <test-method is-config="true" signature="Launching(java.lang.String)[pri:0, instance:project1_Amazon.W_TC12_SelectEach_PaymentMthd@5386659f]" started-at="2025-06-13T23:04:35 IST" name="Launching" finished-at="2025-06-13T23:04:43 IST" duration-ms="7919" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -424,14 +283,60 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
             </line>
           </reporter-output>
         </test-method> <!-- Launching -->
-        <test-method signature="SelectTC12_AllPaymentAmazon()[pri:0, instance:project1_Amazon.W_TC12_SelectEach_PaymentMthd@5e2c3d18]" started-at="2025-06-11T00:14:23 IST" name="SelectTC12_AllPaymentAmazon" finished-at="2025-06-11T00:14:57 IST" duration-ms="33183" status="PASS">
+        <test-method signature="SelectTC12_AllPaymentAmazon()[pri:0, instance:project1_Amazon.W_TC12_SelectEach_PaymentMthd@5386659f]" started-at="2025-06-13T23:04:43 IST" name="SelectTC12_AllPaymentAmazon" finished-at="2025-06-13T23:05:18 IST" duration-ms="34865" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[All assertion not passed
+expected [Ajit Choudhary] but found [Credit or debit card]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: All assertion not passed
+expected [Ajit Choudhary] but found [Credit or debit card]
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:46)
+at project1_Amazon_Src.Amazon_PaymentMethodPage.AllPaymentMethods(Amazon_PaymentMethodPage.java:143)
+at project1_Amazon.W_TC12_SelectEach_PaymentMthd.SelectTC12_AllPaymentAmazon(W_TC12_SelectEach_PaymentMthd.java:55)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.retryFailed(TestInvoker.java:269)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:76)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
             <line>
-              <![CDATA[Test Case Is Pass]]>
+              <![CDATA[Test Case Is Fail]]>
             </line>
           </reporter-output>
         </test-method> <!-- SelectTC12_AllPaymentAmazon -->
-        <test-method is-config="true" signature="Closing()[pri:0, instance:project1_Amazon.W_TC12_SelectEach_PaymentMthd@5e2c3d18]" started-at="2025-06-11T00:14:57 IST" name="Closing" finished-at="2025-06-11T00:14:57 IST" duration-ms="16" status="PASS">
+        <test-method is-config="true" signature="Closing()[pri:0, instance:project1_Amazon.W_TC12_SelectEach_PaymentMthd@5386659f]" started-at="2025-06-13T23:05:19 IST" name="Closing" finished-at="2025-06-13T23:05:19 IST" duration-ms="8" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Browser Is Closed Sucessfully]]>
@@ -439,8 +344,8 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
           </reporter-output>
         </test-method> <!-- Closing -->
       </class> <!-- project1_Amazon.W_TC12_SelectEach_PaymentMthd -->
-      <class name="project1_Amazon.TC4_EditProfile">
-        <test-method is-config="true" signature="Launching(java.lang.String)[pri:0, instance:project1_Amazon.TC4_EditProfile@7a35b0f5]" started-at="2025-06-11T00:13:07 IST" name="Launching" finished-at="2025-06-11T00:13:14 IST" duration-ms="6513" status="PASS">
+      <class name="project1_Amazon.U_TC10_Add_Update_RemoveCart">
+        <test-method is-config="true" signature="Launching(java.lang.String)[pri:0, instance:project1_Amazon.U_TC10_Add_Update_RemoveCart@1caa0244]" started-at="2025-06-13T23:07:08 IST" name="Launching" finished-at="2025-06-13T23:07:16 IST" duration-ms="8618" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -454,14 +359,44 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
             </line>
           </reporter-output>
         </test-method> <!-- Launching -->
-        <test-method signature="EditProfileTC4_Amazon()[pri:0, instance:project1_Amazon.TC4_EditProfile@7a35b0f5]" started-at="2025-06-11T00:13:14 IST" name="EditProfileTC4_Amazon" finished-at="2025-06-11T00:13:31 IST" duration-ms="17178" status="PASS">
+        <test-method signature="AddProductTC10_RemoveCartAmazon()[pri:0, instance:project1_Amazon.U_TC10_Add_Update_RemoveCart@1caa0244]" started-at="2025-06-13T23:07:16 IST" name="AddProductTC10_RemoveCartAmazon" finished-at="2025-06-13T23:07:52 IST" duration-ms="35829" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Test Case Is Pass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- AddProductTC10_RemoveCartAmazon -->
+        <test-method is-config="true" signature="Closing()[pri:0, instance:project1_Amazon.U_TC10_Add_Update_RemoveCart@1caa0244]" started-at="2025-06-13T23:07:53 IST" name="Closing" finished-at="2025-06-13T23:07:53 IST" duration-ms="31" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Browser Is Closed Sucessfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Closing -->
+      </class> <!-- project1_Amazon.U_TC10_Add_Update_RemoveCart -->
+      <class name="project1_Amazon.TC4_EditProfile">
+        <test-method is-config="true" signature="Launching(java.lang.String)[pri:0, instance:project1_Amazon.TC4_EditProfile@710c2b53]" started-at="2025-06-13T23:03:12 IST" name="Launching" finished-at="2025-06-13T23:03:23 IST" duration-ms="10463" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Browser Is Launched Sucessfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Launching -->
+        <test-method signature="EditProfileTC4_Amazon()[pri:0, instance:project1_Amazon.TC4_EditProfile@710c2b53]" started-at="2025-06-13T23:03:23 IST" name="EditProfileTC4_Amazon" finished-at="2025-06-13T23:03:42 IST" duration-ms="18884" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Test Case Is Pass]]>
             </line>
           </reporter-output>
         </test-method> <!-- EditProfileTC4_Amazon -->
-        <test-method is-config="true" signature="Closing()[pri:0, instance:project1_Amazon.TC4_EditProfile@7a35b0f5]" started-at="2025-06-11T00:13:32 IST" name="Closing" finished-at="2025-06-11T00:13:32 IST" duration-ms="11" status="PASS">
+        <test-method is-config="true" signature="Closing()[pri:0, instance:project1_Amazon.TC4_EditProfile@710c2b53]" started-at="2025-06-13T23:03:42 IST" name="Closing" finished-at="2025-06-13T23:03:42 IST" duration-ms="4" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Browser Is Closed Sucessfully]]>
@@ -470,7 +405,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
         </test-method> <!-- Closing -->
       </class> <!-- project1_Amazon.TC4_EditProfile -->
       <class name="project1_Amazon.TC7_Product_details_Display">
-        <test-method is-config="true" signature="Launching(java.lang.String)[pri:0, instance:project1_Amazon.TC7_Product_details_Display@2cb4893b]" started-at="2025-06-11T00:14:57 IST" name="Launching" finished-at="2025-06-11T00:15:05 IST" duration-ms="8185" status="PASS">
+        <test-method is-config="true" signature="Launching(java.lang.String)[pri:0, instance:project1_Amazon.TC7_Product_details_Display@14028087]" started-at="2025-06-13T23:05:19 IST" name="Launching" finished-at="2025-06-13T23:05:27 IST" duration-ms="8291" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -484,14 +419,14 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
             </line>
           </reporter-output>
         </test-method> <!-- Launching -->
-        <test-method signature="ProductDetailsTC7_DisplayAmazon()[pri:0, instance:project1_Amazon.TC7_Product_details_Display@2cb4893b]" started-at="2025-06-11T00:15:05 IST" name="ProductDetailsTC7_DisplayAmazon" finished-at="2025-06-11T00:15:25 IST" duration-ms="20255" status="PASS">
+        <test-method signature="ProductDetailsTC7_DisplayAmazon()[pri:0, instance:project1_Amazon.TC7_Product_details_Display@14028087]" started-at="2025-06-13T23:05:27 IST" name="ProductDetailsTC7_DisplayAmazon" finished-at="2025-06-13T23:05:52 IST" duration-ms="25252" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Test Case Is Pass]]>
             </line>
           </reporter-output>
         </test-method> <!-- ProductDetailsTC7_DisplayAmazon -->
-        <test-method is-config="true" signature="Closing()[pri:0, instance:project1_Amazon.TC7_Product_details_Display@2cb4893b]" started-at="2025-06-11T00:15:26 IST" name="Closing" finished-at="2025-06-11T00:15:26 IST" duration-ms="17" status="PASS">
+        <test-method is-config="true" signature="Closing()[pri:0, instance:project1_Amazon.TC7_Product_details_Display@14028087]" started-at="2025-06-13T23:05:53 IST" name="Closing" finished-at="2025-06-13T23:05:53 IST" duration-ms="13" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Browser Is Closed Sucessfully]]>
@@ -500,7 +435,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
         </test-method> <!-- Closing -->
       </class> <!-- project1_Amazon.TC7_Product_details_Display -->
       <class name="project1_Amazon.Z_TC16_SelectCard_PaymentMthd">
-        <test-method is-config="true" signature="Launching(java.lang.String)[pri:0, instance:project1_Amazon.Z_TC16_SelectCard_PaymentMthd@909217e]" started-at="2025-06-11T00:08:49 IST" name="Launching" finished-at="2025-06-11T00:08:56 IST" duration-ms="6390" status="PASS">
+        <test-method is-config="true" signature="Launching(java.lang.String)[pri:0, instance:project1_Amazon.Z_TC16_SelectCard_PaymentMthd@353352b6]" started-at="2025-06-13T23:00:29 IST" name="Launching" finished-at="2025-06-13T23:00:36 IST" duration-ms="7074" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -514,129 +449,14 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
             </line>
           </reporter-output>
         </test-method> <!-- Launching -->
-        <test-method retried="true" signature="SelectTC16_CardPaymentAmazon()[pri:0, instance:project1_Amazon.Z_TC16_SelectCard_PaymentMthd@909217e]" started-at="2025-06-11T00:08:56 IST" name="SelectTC16_CardPaymentAmazon" finished-at="2025-06-11T00:09:23 IST" duration-ms="27411" status="SKIP">
-          <exception class="java.lang.NullPointerException">
-            <message>
-              <![CDATA[Cannot invoke "org.openqa.selenium.WebDriver.getClass()" because "exceptionDriver" is null]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.getClass()" because "exceptionDriver" is null
-at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:85)
-at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
-at project1_Amazon_Src.Amazon_CardPayPage.AllPaymentMethods(Amazon_CardPayPage.java:94)
-at project1_Amazon.Z_TC16_SelectCard_PaymentMthd.SelectTC16_CardPaymentAmazon(Z_TC16_SelectCard_PaymentMthd.java:44)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:741)
-at org.testng.TestRunner.run(TestRunner.java:616)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-at org.testng.TestNG.runSuites(TestNG.java:1112)
-at org.testng.TestNG.run(TestNG.java:1079)
-at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
-at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
-at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
-at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
-at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
-at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
-at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- SelectTC16_CardPaymentAmazon -->
-        <test-method is-config="true" signature="Closing()[pri:0, instance:project1_Amazon.Z_TC16_SelectCard_PaymentMthd@909217e]" started-at="2025-06-11T00:09:23 IST" name="Closing" finished-at="2025-06-11T00:09:23 IST" duration-ms="3" status="PASS">
+        <test-method signature="SelectTC16_CardPaymentAmazon()[pri:0, instance:project1_Amazon.Z_TC16_SelectCard_PaymentMthd@353352b6]" started-at="2025-06-13T23:00:36 IST" name="SelectTC16_CardPaymentAmazon" finished-at="2025-06-13T23:01:01 IST" duration-ms="25440" status="PASS">
           <reporter-output>
             <line>
-              <![CDATA[Browser Is Closed Sucessfully]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- Closing -->
-        <test-method is-config="true" signature="Launching(java.lang.String)[pri:0, instance:project1_Amazon.Z_TC16_SelectCard_PaymentMthd@909217e]" started-at="2025-06-11T00:09:23 IST" name="Launching" finished-at="2025-06-11T00:09:30 IST" duration-ms="7178" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[edge]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-            <line>
-              <![CDATA[Browser Is Launched Sucessfully]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- Launching -->
-        <test-method signature="SelectTC16_CardPaymentAmazon()[pri:0, instance:project1_Amazon.Z_TC16_SelectCard_PaymentMthd@909217e]" started-at="2025-06-11T00:09:30 IST" name="SelectTC16_CardPaymentAmazon" finished-at="2025-06-11T00:09:59 IST" duration-ms="29288" status="FAIL">
-          <exception class="java.lang.NullPointerException">
-            <message>
-              <![CDATA[Cannot invoke "org.openqa.selenium.WebDriver.getClass()" because "exceptionDriver" is null]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.getClass()" because "exceptionDriver" is null
-at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:85)
-at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
-at project1_Amazon_Src.Amazon_CardPayPage.AllPaymentMethods(Amazon_CardPayPage.java:94)
-at project1_Amazon.Z_TC16_SelectCard_PaymentMthd.SelectTC16_CardPaymentAmazon(Z_TC16_SelectCard_PaymentMthd.java:44)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
-at org.testng.internal.invokers.TestInvoker.retryFailed(TestInvoker.java:269)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:76)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:741)
-at org.testng.TestRunner.run(TestRunner.java:616)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-at org.testng.TestNG.runSuites(TestNG.java:1112)
-at org.testng.TestNG.run(TestNG.java:1079)
-at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
-at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
-at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
-at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
-at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
-at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
-at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
-          <reporter-output>
-            <line>
-              <![CDATA[Test Case Is Fail]]>
+              <![CDATA[Test Case Is Pass]]>
             </line>
           </reporter-output>
         </test-method> <!-- SelectTC16_CardPaymentAmazon -->
-        <test-method is-config="true" signature="Closing()[pri:0, instance:project1_Amazon.Z_TC16_SelectCard_PaymentMthd@909217e]" started-at="2025-06-11T00:10:00 IST" name="Closing" finished-at="2025-06-11T00:10:00 IST" duration-ms="2" status="PASS">
+        <test-method is-config="true" signature="Closing()[pri:0, instance:project1_Amazon.Z_TC16_SelectCard_PaymentMthd@353352b6]" started-at="2025-06-13T23:01:01 IST" name="Closing" finished-at="2025-06-13T23:01:01 IST" duration-ms="2" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Browser Is Closed Sucessfully]]>
@@ -645,7 +465,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
         </test-method> <!-- Closing -->
       </class> <!-- project1_Amazon.Z_TC16_SelectCard_PaymentMthd -->
       <class name="project1_Amazon.V_TC11_BuyCheckout_PaymentReview">
-        <test-method is-config="true" signature="Launching(java.lang.String)[pri:0, instance:project1_Amazon.V_TC11_BuyCheckout_PaymentReview@68c9133c]" started-at="2025-06-11T00:11:35 IST" name="Launching" finished-at="2025-06-11T00:11:45 IST" duration-ms="10217" status="PASS">
+        <test-method is-config="true" signature="Launching(java.lang.String)[pri:0, instance:project1_Amazon.V_TC11_BuyCheckout_PaymentReview@2767e23c]" started-at="2025-06-13T23:02:36 IST" name="Launching" finished-at="2025-06-13T23:02:44 IST" duration-ms="8376" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -659,129 +479,14 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
             </line>
           </reporter-output>
         </test-method> <!-- Launching -->
-        <test-method retried="true" signature="BuyProductTC11_Checkout_PaymentAmazon()[pri:0, instance:project1_Amazon.V_TC11_BuyCheckout_PaymentReview@68c9133c]" started-at="2025-06-11T00:11:45 IST" name="BuyProductTC11_Checkout_PaymentAmazon" finished-at="2025-06-11T00:12:30 IST" duration-ms="44500" status="SKIP">
-          <exception class="java.lang.NullPointerException">
-            <message>
-              <![CDATA[Cannot invoke "org.openqa.selenium.WebDriver.getClass()" because "exceptionDriver" is null]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.getClass()" because "exceptionDriver" is null
-at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:85)
-at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
-at project1_Amazon_Src.Amazon_BuyCheckOutPage.CheckOut(Amazon_BuyCheckOutPage.java:128)
-at project1_Amazon.V_TC11_BuyCheckout_PaymentReview.BuyProductTC11_Checkout_PaymentAmazon(V_TC11_BuyCheckout_PaymentReview.java:44)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:741)
-at org.testng.TestRunner.run(TestRunner.java:616)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-at org.testng.TestNG.runSuites(TestNG.java:1112)
-at org.testng.TestNG.run(TestNG.java:1079)
-at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
-at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
-at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
-at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
-at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
-at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
-at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- BuyProductTC11_Checkout_PaymentAmazon -->
-        <test-method is-config="true" signature="Closing()[pri:0, instance:project1_Amazon.V_TC11_BuyCheckout_PaymentReview@68c9133c]" started-at="2025-06-11T00:12:30 IST" name="Closing" finished-at="2025-06-11T00:12:30 IST" duration-ms="9" status="PASS">
+        <test-method signature="BuyProductTC11_Checkout_PaymentAmazon()[pri:0, instance:project1_Amazon.V_TC11_BuyCheckout_PaymentReview@2767e23c]" started-at="2025-06-13T23:02:44 IST" name="BuyProductTC11_Checkout_PaymentAmazon" finished-at="2025-06-13T23:03:12 IST" duration-ms="27409" status="PASS">
           <reporter-output>
             <line>
-              <![CDATA[Browser Is Closed Sucessfully]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- Closing -->
-        <test-method is-config="true" signature="Launching(java.lang.String)[pri:0, instance:project1_Amazon.V_TC11_BuyCheckout_PaymentReview@68c9133c]" started-at="2025-06-11T00:12:30 IST" name="Launching" finished-at="2025-06-11T00:12:38 IST" duration-ms="8117" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[edge]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-            <line>
-              <![CDATA[Browser Is Launched Sucessfully]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- Launching -->
-        <test-method signature="BuyProductTC11_Checkout_PaymentAmazon()[pri:0, instance:project1_Amazon.V_TC11_BuyCheckout_PaymentReview@68c9133c]" started-at="2025-06-11T00:12:38 IST" name="BuyProductTC11_Checkout_PaymentAmazon" finished-at="2025-06-11T00:13:07 IST" duration-ms="29456" status="FAIL">
-          <exception class="java.lang.NullPointerException">
-            <message>
-              <![CDATA[Cannot invoke "org.openqa.selenium.WebDriver.getClass()" because "exceptionDriver" is null]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.getClass()" because "exceptionDriver" is null
-at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:85)
-at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
-at project1_Amazon_Src.Amazon_BuyCheckOutPage.CheckOut(Amazon_BuyCheckOutPage.java:128)
-at project1_Amazon.V_TC11_BuyCheckout_PaymentReview.BuyProductTC11_Checkout_PaymentAmazon(V_TC11_BuyCheckout_PaymentReview.java:44)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
-at org.testng.internal.invokers.TestInvoker.retryFailed(TestInvoker.java:269)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:76)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:741)
-at org.testng.TestRunner.run(TestRunner.java:616)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-at org.testng.TestNG.runSuites(TestNG.java:1112)
-at org.testng.TestNG.run(TestNG.java:1079)
-at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
-at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
-at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
-at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
-at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
-at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
-at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
-          <reporter-output>
-            <line>
-              <![CDATA[Test Case Is Fail]]>
+              <![CDATA[Test Case Is Pass]]>
             </line>
           </reporter-output>
         </test-method> <!-- BuyProductTC11_Checkout_PaymentAmazon -->
-        <test-method is-config="true" signature="Closing()[pri:0, instance:project1_Amazon.V_TC11_BuyCheckout_PaymentReview@68c9133c]" started-at="2025-06-11T00:13:07 IST" name="Closing" finished-at="2025-06-11T00:13:07 IST" duration-ms="14" status="PASS">
+        <test-method is-config="true" signature="Closing()[pri:0, instance:project1_Amazon.V_TC11_BuyCheckout_PaymentReview@2767e23c]" started-at="2025-06-13T23:03:12 IST" name="Closing" finished-at="2025-06-13T23:03:12 IST" duration-ms="13" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Browser Is Closed Sucessfully]]>
@@ -790,7 +495,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
         </test-method> <!-- Closing -->
       </class> <!-- project1_Amazon.V_TC11_BuyCheckout_PaymentReview -->
       <class name="project1_Amazon.X_TC13_Apply_CouponCode">
-        <test-method is-config="true" signature="Launching(java.lang.String)[pri:0, instance:project1_Amazon.X_TC13_Apply_CouponCode@cc43f62]" started-at="2025-06-11T00:15:26 IST" name="Launching" finished-at="2025-06-11T00:15:32 IST" duration-ms="6531" status="PASS">
+        <test-method is-config="true" signature="Launching(java.lang.String)[pri:0, instance:project1_Amazon.X_TC13_Apply_CouponCode@cecf639]" started-at="2025-06-13T23:05:53 IST" name="Launching" finished-at="2025-06-13T23:06:00 IST" duration-ms="7314" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -804,107 +509,18 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
             </line>
           </reporter-output>
         </test-method> <!-- Launching -->
-        <test-method signature="ApplyCouponCodeTC13_OrderingAmazon()[pri:0, instance:project1_Amazon.X_TC13_Apply_CouponCode@cc43f62]" started-at="2025-06-11T00:15:32 IST" name="ApplyCouponCodeTC13_OrderingAmazon" finished-at="2025-06-11T00:16:05 IST" duration-ms="32519" status="PASS">
-          <reporter-output>
-            <line>
-              <![CDATA[Test Case Is Pass]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- ApplyCouponCodeTC13_OrderingAmazon -->
-        <test-method is-config="true" signature="Closing()[pri:0, instance:project1_Amazon.X_TC13_Apply_CouponCode@cc43f62]" started-at="2025-06-11T00:16:06 IST" name="Closing" finished-at="2025-06-11T00:16:06 IST" duration-ms="15" status="PASS">
-          <reporter-output>
-            <line>
-              <![CDATA[Browser Is Closed Sucessfully]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- Closing -->
-      </class> <!-- project1_Amazon.X_TC13_Apply_CouponCode -->
-      <class name="project1_Amazon.TC9_AddToCart">
-        <test-method is-config="true" signature="Launching(java.lang.String)[pri:0, instance:project1_Amazon.TC9_AddToCart@48075da3]" started-at="2025-06-11T00:11:01 IST" name="Launching" finished-at="2025-06-11T00:11:09 IST" duration-ms="8466" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[edge]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-            <line>
-              <![CDATA[Browser Is Launched Sucessfully]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- Launching -->
-        <test-method signature="ProductTC9_AddToCartAmazon()[pri:0, instance:project1_Amazon.TC9_AddToCart@48075da3]" started-at="2025-06-11T00:11:09 IST" name="ProductTC9_AddToCartAmazon" finished-at="2025-06-11T00:11:34 IST" duration-ms="25150" status="PASS">
-          <reporter-output>
-            <line>
-              <![CDATA[Test Case Is Pass]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- ProductTC9_AddToCartAmazon -->
-        <test-method is-config="true" signature="Closing()[pri:0, instance:project1_Amazon.TC9_AddToCart@48075da3]" started-at="2025-06-11T00:11:35 IST" name="Closing" finished-at="2025-06-11T00:11:35 IST" duration-ms="21" status="PASS">
-          <reporter-output>
-            <line>
-              <![CDATA[Browser Is Closed Sucessfully]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- Closing -->
-      </class> <!-- project1_Amazon.TC9_AddToCart -->
-      <class name="project1_Amazon.TC8_ProductSort">
-        <test-method is-config="true" signature="Launching(java.lang.String)[pri:0, instance:project1_Amazon.TC8_ProductSort@645aa696]" started-at="2025-06-11T00:17:52 IST" name="Launching" finished-at="2025-06-11T00:18:04 IST" duration-ms="12120" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[edge]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-            <line>
-              <![CDATA[Browser Is Launched Sucessfully]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- Launching -->
-        <test-method signature="ProductTC8_SortAmazon()[pri:0, instance:project1_Amazon.TC8_ProductSort@645aa696]" started-at="2025-06-11T00:18:04 IST" name="ProductTC8_SortAmazon" finished-at="2025-06-11T00:18:29 IST" duration-ms="24426" status="PASS">
-          <reporter-output>
-            <line>
-              <![CDATA[Test Case Is Pass]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- ProductTC8_SortAmazon -->
-        <test-method is-config="true" signature="Closing()[pri:0, instance:project1_Amazon.TC8_ProductSort@645aa696]" started-at="2025-06-11T00:18:30 IST" name="Closing" finished-at="2025-06-11T00:18:30 IST" duration-ms="86" status="PASS">
-          <reporter-output>
-            <line>
-              <![CDATA[Browser Is Closed Sucessfully]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- Closing -->
-      </class> <!-- project1_Amazon.TC8_ProductSort -->
-      <class name="project1_Amazon.Y_TC14_StarRating">
-        <test-method is-config="true" signature="Launching(java.lang.String)[pri:0, instance:project1_Amazon.Y_TC14_StarRating@6caf0677]" started-at="2025-06-11T00:18:30 IST" name="Launching" finished-at="2025-06-11T00:18:40 IST" duration-ms="9921" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[edge]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-            <line>
-              <![CDATA[Browser Is Launched Sucessfully]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- Launching -->
-        <test-method retried="true" signature="Star5TC14_Rating_LastOrder_Amazon()[pri:0, instance:project1_Amazon.Y_TC14_StarRating@6caf0677]" started-at="2025-06-11T00:18:40 IST" name="Star5TC14_Rating_LastOrder_Amazon" finished-at="2025-06-11T00:19:17 IST" duration-ms="37010" status="SKIP">
-          <exception class="java.lang.NullPointerException">
+        <test-method retried="true" signature="ApplyCouponCodeTC13_OrderingAmazon()[pri:0, instance:project1_Amazon.X_TC13_Apply_CouponCode@cecf639]" started-at="2025-06-13T23:06:00 IST" name="ApplyCouponCodeTC13_OrderingAmazon" finished-at="2025-06-13T23:06:29 IST" duration-ms="28589" status="SKIP">
+          <exception class="java.lang.AssertionError">
             <message>
-              <![CDATA[Cannot invoke "org.openqa.selenium.WebDriver.getClass()" because "exceptionDriver" is null]]>
+              <![CDATA[All assertion not passed
+expected [Ajit Choudhary] but found [Credit or debit card]]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.getClass()" because "exceptionDriver" is null
-at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:85)
-at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
-at project1_Amazon_Src.Amazon_RatingPage.Rating(Amazon_RatingPage.java:53)
-at project1_Amazon.Y_TC14_StarRating.Star5TC14_Rating_LastOrder_Amazon(Y_TC14_StarRating.java:43)
+              <![CDATA[java.lang.AssertionError: All assertion not passed
+expected [Ajit Choudhary] but found [Credit or debit card]
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:46)
+at project1_Amazon_Src.Amazon_BuyCheckOutPage.ApplyCode(Amazon_BuyCheckOutPage.java:176)
+at project1_Amazon.X_TC13_Apply_CouponCode.ApplyCouponCodeTC13_OrderingAmazon(X_TC13_Apply_CouponCode.java:55)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -939,18 +555,18 @@ at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
 at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
 ]]>
             </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
+          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Star5TC14_Rating_LastOrder_Amazon -->
-        <test-method is-config="true" signature="Closing()[pri:0, instance:project1_Amazon.Y_TC14_StarRating@6caf0677]" started-at="2025-06-11T00:19:17 IST" name="Closing" finished-at="2025-06-11T00:19:17 IST" duration-ms="36" status="PASS">
+        </test-method> <!-- ApplyCouponCodeTC13_OrderingAmazon -->
+        <test-method is-config="true" signature="Closing()[pri:0, instance:project1_Amazon.X_TC13_Apply_CouponCode@cecf639]" started-at="2025-06-13T23:06:29 IST" name="Closing" finished-at="2025-06-13T23:06:29 IST" duration-ms="83" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Browser Is Closed Sucessfully]]>
             </line>
           </reporter-output>
         </test-method> <!-- Closing -->
-        <test-method is-config="true" signature="Launching(java.lang.String)[pri:0, instance:project1_Amazon.Y_TC14_StarRating@6caf0677]" started-at="2025-06-11T00:19:17 IST" name="Launching" finished-at="2025-06-11T00:19:29 IST" duration-ms="12113" status="PASS">
+        <test-method is-config="true" signature="Launching(java.lang.String)[pri:0, instance:project1_Amazon.X_TC13_Apply_CouponCode@cecf639]" started-at="2025-06-13T23:06:29 IST" name="Launching" finished-at="2025-06-13T23:06:34 IST" duration-ms="5236" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -964,7 +580,317 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
             </line>
           </reporter-output>
         </test-method> <!-- Launching -->
-        <test-method signature="Star5TC14_Rating_LastOrder_Amazon()[pri:0, instance:project1_Amazon.Y_TC14_StarRating@6caf0677]" started-at="2025-06-11T00:19:29 IST" name="Star5TC14_Rating_LastOrder_Amazon" finished-at="2025-06-11T00:19:58 IST" duration-ms="28655" status="FAIL">
+        <test-method signature="ApplyCouponCodeTC13_OrderingAmazon()[pri:0, instance:project1_Amazon.X_TC13_Apply_CouponCode@cecf639]" started-at="2025-06-13T23:06:34 IST" name="ApplyCouponCodeTC13_OrderingAmazon" finished-at="2025-06-13T23:07:07 IST" duration-ms="33191" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[All assertion not passed
+expected [Ajit Choudhary] but found [Credit or debit card]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: All assertion not passed
+expected [Ajit Choudhary] but found [Credit or debit card]
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:46)
+at project1_Amazon_Src.Amazon_BuyCheckOutPage.ApplyCode(Amazon_BuyCheckOutPage.java:176)
+at project1_Amazon.X_TC13_Apply_CouponCode.ApplyCouponCodeTC13_OrderingAmazon(X_TC13_Apply_CouponCode.java:55)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.retryFailed(TestInvoker.java:269)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:76)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+            <line>
+              <![CDATA[Test Case Is Fail]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- ApplyCouponCodeTC13_OrderingAmazon -->
+        <test-method is-config="true" signature="Closing()[pri:0, instance:project1_Amazon.X_TC13_Apply_CouponCode@cecf639]" started-at="2025-06-13T23:07:08 IST" name="Closing" finished-at="2025-06-13T23:07:08 IST" duration-ms="23" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Browser Is Closed Sucessfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Closing -->
+      </class> <!-- project1_Amazon.X_TC13_Apply_CouponCode -->
+      <class name="project1_Amazon.TC9_AddToCart">
+        <test-method is-config="true" signature="Launching(java.lang.String)[pri:0, instance:project1_Amazon.TC9_AddToCart@6fa51cd4]" started-at="2025-06-13T23:02:04 IST" name="Launching" finished-at="2025-06-13T23:02:13 IST" duration-ms="8906" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Browser Is Launched Sucessfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Launching -->
+        <test-method signature="ProductTC9_AddToCartAmazon()[pri:0, instance:project1_Amazon.TC9_AddToCart@6fa51cd4]" started-at="2025-06-13T23:02:13 IST" name="ProductTC9_AddToCartAmazon" finished-at="2025-06-13T23:02:36 IST" duration-ms="22411" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Test Case Is Pass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- ProductTC9_AddToCartAmazon -->
+        <test-method is-config="true" signature="Closing()[pri:0, instance:project1_Amazon.TC9_AddToCart@6fa51cd4]" started-at="2025-06-13T23:02:36 IST" name="Closing" finished-at="2025-06-13T23:02:36 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Browser Is Closed Sucessfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Closing -->
+      </class> <!-- project1_Amazon.TC9_AddToCart -->
+      <class name="project1_Amazon.TC8_ProductSort">
+        <test-method is-config="true" signature="Launching(java.lang.String)[pri:0, instance:project1_Amazon.TC8_ProductSort@7ce026d3]" started-at="2025-06-13T23:07:53 IST" name="Launching" finished-at="2025-06-13T23:08:02 IST" duration-ms="8969" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Browser Is Launched Sucessfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Launching -->
+        <test-method retried="true" signature="ProductTC8_SortAmazon()[pri:0, instance:project1_Amazon.TC8_ProductSort@7ce026d3]" started-at="2025-06-13T23:08:02 IST" name="ProductTC8_SortAmazon" finished-at="2025-06-13T23:08:24 IST" duration-ms="22506" status="SKIP">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[All Assertion Not Passed
+expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: All Assertion Not Passed
+expected [true] but found [false]
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:46)
+at project1_Amazon_Src.Amazon_ProductPage2.sortbyLowToHigh(Amazon_ProductPage2.java:69)
+at project1_Amazon.TC8_ProductSort.ProductTC8_SortAmazon(TC8_ProductSort.java:58)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ProductTC8_SortAmazon -->
+        <test-method is-config="true" signature="Closing()[pri:0, instance:project1_Amazon.TC8_ProductSort@7ce026d3]" started-at="2025-06-13T23:08:24 IST" name="Closing" finished-at="2025-06-13T23:08:24 IST" duration-ms="87" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Browser Is Closed Sucessfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Closing -->
+        <test-method is-config="true" signature="Launching(java.lang.String)[pri:0, instance:project1_Amazon.TC8_ProductSort@7ce026d3]" started-at="2025-06-13T23:08:24 IST" name="Launching" finished-at="2025-06-13T23:08:37 IST" duration-ms="12684" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Browser Is Launched Sucessfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Launching -->
+        <test-method signature="ProductTC8_SortAmazon()[pri:0, instance:project1_Amazon.TC8_ProductSort@7ce026d3]" started-at="2025-06-13T23:08:37 IST" name="ProductTC8_SortAmazon" finished-at="2025-06-13T23:09:05 IST" duration-ms="28165" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Test Case Is Pass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- ProductTC8_SortAmazon -->
+        <test-method is-config="true" signature="Closing()[pri:0, instance:project1_Amazon.TC8_ProductSort@7ce026d3]" started-at="2025-06-13T23:09:06 IST" name="Closing" finished-at="2025-06-13T23:09:06 IST" duration-ms="36" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Browser Is Closed Sucessfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Closing -->
+      </class> <!-- project1_Amazon.TC8_ProductSort -->
+      <class name="project1_Amazon.Y_TC14_StarRating">
+        <test-method is-config="true" signature="Launching(java.lang.String)[pri:0, instance:project1_Amazon.Y_TC14_StarRating@7ce69770]" started-at="2025-06-13T23:09:06 IST" name="Launching" finished-at="2025-06-13T23:09:17 IST" duration-ms="11228" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Browser Is Launched Sucessfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Launching -->
+        <test-method retried="true" signature="Star5TC14_Rating_LastOrder_Amazon()[pri:0, instance:project1_Amazon.Y_TC14_StarRating@7ce69770]" started-at="2025-06-13T23:09:18 IST" name="Star5TC14_Rating_LastOrder_Amazon" finished-at="2025-06-13T23:09:29 IST" duration-ms="11879" status="SKIP">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"(//span[@class='nav-line-1 nav-progressive-content'])[2]"}
+  (Session info: MicrosoftEdge=137.0.3296.68)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.33.0', revision: '2c6aaad03a'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.11'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [b5555739efb72aff6ac72dd061c9fefc, findElement {using=xpath, value=(//span[@class='nav-line-1 nav-progressive-content'])[2]}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 137.0.3296.68, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:60643}, msedge: {msedgedriverVersion: 137.0.3296.68 (f3affdcf267b..., userDataDir: C:\Users\ajitc\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60643/devtoo..., se:cdpVersion: 137.0.3296.68, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: b5555739efb72aff6ac72dd061c9fefc]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"(//span[@class='nav-line-1 nav-progressive-content'])[2]"}
+  (Session info: MicrosoftEdge=137.0.3296.68)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.33.0', revision: '2c6aaad03a'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.11'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [b5555739efb72aff6ac72dd061c9fefc, findElement {using=xpath, value=(//span[@class='nav-line-1 nav-progressive-content'])[2]}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 137.0.3296.68, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:60643}, msedge: {msedgedriverVersion: 137.0.3296.68 (f3affdcf267b..., userDataDir: C:\Users\ajitc\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60643/devtoo..., se:cdpVersion: 137.0.3296.68, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: b5555739efb72aff6ac72dd061c9fefc
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:544)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:367)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:361)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at jdk.proxy2/jdk.proxy2.$Proxy17.getText(Unknown Source)
+at project1_Amazon_Src.Amazon_LoginPage.SigninPressTC14(Amazon_LoginPage.java:153)
+at project1_Amazon.Y_TC14_StarRating.Star5TC14_Rating_LastOrder_Amazon(Y_TC14_StarRating.java:45)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Star5TC14_Rating_LastOrder_Amazon -->
+        <test-method is-config="true" signature="Closing()[pri:0, instance:project1_Amazon.Y_TC14_StarRating@7ce69770]" started-at="2025-06-13T23:09:29 IST" name="Closing" finished-at="2025-06-13T23:09:29 IST" duration-ms="20" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Browser Is Closed Sucessfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Closing -->
+        <test-method is-config="true" signature="Launching(java.lang.String)[pri:0, instance:project1_Amazon.Y_TC14_StarRating@7ce69770]" started-at="2025-06-13T23:09:29 IST" name="Launching" finished-at="2025-06-13T23:09:42 IST" duration-ms="12174" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Browser Is Launched Sucessfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Launching -->
+        <test-method signature="Star5TC14_Rating_LastOrder_Amazon()[pri:0, instance:project1_Amazon.Y_TC14_StarRating@7ce69770]" started-at="2025-06-13T23:09:42 IST" name="Star5TC14_Rating_LastOrder_Amazon" finished-at="2025-06-13T23:10:17 IST" duration-ms="35704" status="FAIL">
           <exception class="java.lang.NullPointerException">
             <message>
               <![CDATA[Cannot invoke "org.openqa.selenium.WebDriver.getClass()" because "exceptionDriver" is null]]>
@@ -974,7 +900,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
 at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:85)
 at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
 at project1_Amazon_Src.Amazon_RatingPage.Rating(Amazon_RatingPage.java:53)
-at project1_Amazon.Y_TC14_StarRating.Star5TC14_Rating_LastOrder_Amazon(Y_TC14_StarRating.java:43)
+at project1_Amazon.Y_TC14_StarRating.Star5TC14_Rating_LastOrder_Amazon(Y_TC14_StarRating.java:50)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -1016,7 +942,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
             </line>
           </reporter-output>
         </test-method> <!-- Star5TC14_Rating_LastOrder_Amazon -->
-        <test-method is-config="true" signature="Closing()[pri:0, instance:project1_Amazon.Y_TC14_StarRating@6caf0677]" started-at="2025-06-11T00:19:59 IST" name="Closing" finished-at="2025-06-11T00:19:59 IST" duration-ms="21" status="PASS">
+        <test-method is-config="true" signature="Closing()[pri:0, instance:project1_Amazon.Y_TC14_StarRating@7ce69770]" started-at="2025-06-13T23:10:18 IST" name="Closing" finished-at="2025-06-13T23:10:18 IST" duration-ms="15" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Browser Is Closed Sucessfully]]>
@@ -1025,7 +951,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
         </test-method> <!-- Closing -->
       </class> <!-- project1_Amazon.Y_TC14_StarRating -->
       <class name="project1_Amazon.TC3_Fail_Login">
-        <test-method is-config="true" signature="Launching(java.lang.String)[pri:0, instance:project1_Amazon.TC3_Fail_Login@606e4010]" started-at="2025-06-11T00:10:28 IST" name="Launching" finished-at="2025-06-11T00:10:35 IST" duration-ms="7200" status="PASS">
+        <test-method is-config="true" signature="Launching(java.lang.String)[pri:0, instance:project1_Amazon.TC3_Fail_Login@57a78e3]" started-at="2025-06-13T23:01:31 IST" name="Launching" finished-at="2025-06-13T23:01:38 IST" duration-ms="6927" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1039,14 +965,14 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
             </line>
           </reporter-output>
         </test-method> <!-- Launching -->
-        <test-method signature="LoginFailTC3_ToAmazon()[pri:0, instance:project1_Amazon.TC3_Fail_Login@606e4010]" started-at="2025-06-11T00:10:35 IST" name="LoginFailTC3_ToAmazon" finished-at="2025-06-11T00:10:41 IST" duration-ms="5704" status="PASS">
+        <test-method signature="LoginFailTC3_ToAmazon()[pri:0, instance:project1_Amazon.TC3_Fail_Login@57a78e3]" started-at="2025-06-13T23:01:38 IST" name="LoginFailTC3_ToAmazon" finished-at="2025-06-13T23:01:45 IST" duration-ms="7292" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Test Case Is Pass]]>
             </line>
           </reporter-output>
         </test-method> <!-- LoginFailTC3_ToAmazon -->
-        <test-method is-config="true" signature="Closing()[pri:0, instance:project1_Amazon.TC3_Fail_Login@606e4010]" started-at="2025-06-11T00:10:41 IST" name="Closing" finished-at="2025-06-11T00:10:41 IST" duration-ms="2" status="PASS">
+        <test-method is-config="true" signature="Closing()[pri:0, instance:project1_Amazon.TC3_Fail_Login@57a78e3]" started-at="2025-06-13T23:01:46 IST" name="Closing" finished-at="2025-06-13T23:01:46 IST" duration-ms="1" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Browser Is Closed Sucessfully]]>
@@ -1055,7 +981,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
         </test-method> <!-- Closing -->
       </class> <!-- project1_Amazon.TC3_Fail_Login -->
       <class name="project1_Amazon.Z_TC15_WithOut_Login_Cart">
-        <test-method is-config="true" signature="Launching(java.lang.String)[pri:0, instance:project1_Amazon.Z_TC15_WithOut_Login_Cart@72035809]" started-at="2025-06-11T00:08:30 IST" name="Launching" finished-at="2025-06-11T00:08:37 IST" duration-ms="6607" status="PASS">
+        <test-method is-config="true" signature="Launching(java.lang.String)[pri:0, instance:project1_Amazon.Z_TC15_WithOut_Login_Cart@48bb62]" started-at="2025-06-13T23:00:07 IST" name="Launching" finished-at="2025-06-13T23:00:15 IST" duration-ms="8392" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1069,14 +995,14 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
             </line>
           </reporter-output>
         </test-method> <!-- Launching -->
-        <test-method signature="ReachTillTC15_Cart_WithoutLoginAmazon()[pri:0, instance:project1_Amazon.Z_TC15_WithOut_Login_Cart@72035809]" started-at="2025-06-11T00:08:37 IST" name="ReachTillTC15_Cart_WithoutLoginAmazon" finished-at="2025-06-11T00:08:49 IST" duration-ms="12358" status="PASS">
+        <test-method signature="ReachTillTC15_Cart_WithoutLoginAmazon()[pri:0, instance:project1_Amazon.Z_TC15_WithOut_Login_Cart@48bb62]" started-at="2025-06-13T23:00:15 IST" name="ReachTillTC15_Cart_WithoutLoginAmazon" finished-at="2025-06-13T23:00:28 IST" duration-ms="13335" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Test Case Is Pass]]>
             </line>
           </reporter-output>
         </test-method> <!-- ReachTillTC15_Cart_WithoutLoginAmazon -->
-        <test-method is-config="true" signature="Closing()[pri:0, instance:project1_Amazon.Z_TC15_WithOut_Login_Cart@72035809]" started-at="2025-06-11T00:08:49 IST" name="Closing" finished-at="2025-06-11T00:08:49 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="Closing()[pri:0, instance:project1_Amazon.Z_TC15_WithOut_Login_Cart@48bb62]" started-at="2025-06-13T23:00:29 IST" name="Closing" finished-at="2025-06-13T23:00:29 IST" duration-ms="1" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Browser Is Closed Sucessfully]]>
@@ -1085,7 +1011,11 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
         </test-method> <!-- Closing -->
       </class> <!-- project1_Amazon.Z_TC15_WithOut_Login_Cart -->
       <class name="project1_Amazon.TC5_SearchProduct">
-        <test-method is-config="true" signature="Launching(java.lang.String)[pri:0, instance:project1_Amazon.TC5_SearchProduct@6e9175d8]" started-at="2025-06-11T00:08:10 IST" name="Launching" finished-at="2025-06-11T00:08:18 IST" duration-ms="8204" status="PASS">
+        <test-method is-config="true" signature="extentreport()[pri:0, instance:project1_Amazon.TC5_SearchProduct@16eb3ea3]" started-at="2025-06-13T22:59:45 IST" name="extentreport" finished-at="2025-06-13T22:59:45 IST" duration-ms="471" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- extentreport -->
+        <test-method is-config="true" signature="Launching(java.lang.String)[pri:0, instance:project1_Amazon.TC5_SearchProduct@16eb3ea3]" started-at="2025-06-13T22:59:45 IST" name="Launching" finished-at="2025-06-13T22:59:54 IST" duration-ms="8697" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1099,23 +1029,27 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
             </line>
           </reporter-output>
         </test-method> <!-- Launching -->
-        <test-method signature="SearchProductTC5_Amazon()[pri:0, instance:project1_Amazon.TC5_SearchProduct@6e9175d8]" started-at="2025-06-11T00:08:18 IST" name="SearchProductTC5_Amazon" finished-at="2025-06-11T00:08:30 IST" duration-ms="11420" status="PASS">
+        <test-method signature="SearchProductTC5_Amazon()[pri:0, instance:project1_Amazon.TC5_SearchProduct@16eb3ea3]" started-at="2025-06-13T22:59:54 IST" name="SearchProductTC5_Amazon" finished-at="2025-06-13T23:00:06 IST" duration-ms="12285" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Test Case Is Pass]]>
             </line>
           </reporter-output>
         </test-method> <!-- SearchProductTC5_Amazon -->
-        <test-method is-config="true" signature="Closing()[pri:0, instance:project1_Amazon.TC5_SearchProduct@6e9175d8]" started-at="2025-06-11T00:08:30 IST" name="Closing" finished-at="2025-06-11T00:08:30 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="Closing()[pri:0, instance:project1_Amazon.TC5_SearchProduct@16eb3ea3]" started-at="2025-06-13T23:00:07 IST" name="Closing" finished-at="2025-06-13T23:00:07 IST" duration-ms="1" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Browser Is Closed Sucessfully]]>
             </line>
           </reporter-output>
         </test-method> <!-- Closing -->
+        <test-method is-config="true" signature="extentreport1()[pri:0, instance:project1_Amazon.TC5_SearchProduct@16eb3ea3]" started-at="2025-06-13T23:10:19 IST" name="extentreport1" finished-at="2025-06-13T23:10:22 IST" duration-ms="3600" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- extentreport1 -->
       </class> <!-- project1_Amazon.TC5_SearchProduct -->
       <class name="project1_Amazon.TC6_SearchingByFilters">
-        <test-method is-config="true" signature="Launching(java.lang.String)[pri:0, instance:project1_Amazon.TC6_SearchingByFilters@18271936]" started-at="2025-06-11T00:10:00 IST" name="Launching" finished-at="2025-06-11T00:10:07 IST" duration-ms="6712" status="PASS">
+        <test-method is-config="true" signature="Launching(java.lang.String)[pri:0, instance:project1_Amazon.TC6_SearchingByFilters@4681c175]" started-at="2025-06-13T23:01:01 IST" name="Launching" finished-at="2025-06-13T23:01:08 IST" duration-ms="6364" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1129,14 +1063,14 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
             </line>
           </reporter-output>
         </test-method> <!-- Launching -->
-        <test-method signature="SearchProductTC6_FilterAmazon()[pri:0, instance:project1_Amazon.TC6_SearchingByFilters@18271936]" started-at="2025-06-11T00:10:07 IST" name="SearchProductTC6_FilterAmazon" finished-at="2025-06-11T00:10:28 IST" duration-ms="21215" status="PASS">
+        <test-method signature="SearchProductTC6_FilterAmazon()[pri:0, instance:project1_Amazon.TC6_SearchingByFilters@4681c175]" started-at="2025-06-13T23:01:08 IST" name="SearchProductTC6_FilterAmazon" finished-at="2025-06-13T23:01:31 IST" duration-ms="22920" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Test Case Is Pass]]>
             </line>
           </reporter-output>
         </test-method> <!-- SearchProductTC6_FilterAmazon -->
-        <test-method is-config="true" signature="Closing()[pri:0, instance:project1_Amazon.TC6_SearchingByFilters@18271936]" started-at="2025-06-11T00:10:28 IST" name="Closing" finished-at="2025-06-11T00:10:28 IST" duration-ms="3" status="PASS">
+        <test-method is-config="true" signature="Closing()[pri:0, instance:project1_Amazon.TC6_SearchingByFilters@4681c175]" started-at="2025-06-13T23:01:31 IST" name="Closing" finished-at="2025-06-13T23:01:31 IST" duration-ms="2" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Browser Is Closed Sucessfully]]>
@@ -1145,7 +1079,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
         </test-method> <!-- Closing -->
       </class> <!-- project1_Amazon.TC6_SearchingByFilters -->
       <class name="project1_Amazon.TC2_Login">
-        <test-method is-config="true" signature="Launching(java.lang.String)[pri:0, instance:project1_Amazon.TC2_Login@8458f04]" started-at="2025-06-11T00:10:41 IST" name="Launching" finished-at="2025-06-11T00:10:48 IST" duration-ms="6851" status="PASS">
+        <test-method is-config="true" signature="Launching(java.lang.String)[pri:0, instance:project1_Amazon.TC2_Login@402c4085]" started-at="2025-06-13T23:01:46 IST" name="Launching" finished-at="2025-06-13T23:01:52 IST" duration-ms="6908" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1159,14 +1093,14 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
             </line>
           </reporter-output>
         </test-method> <!-- Launching -->
-        <test-method signature="LoginTC2_ToAmazon()[pri:0, instance:project1_Amazon.TC2_Login@8458f04]" started-at="2025-06-11T00:10:48 IST" name="LoginTC2_ToAmazon" finished-at="2025-06-11T00:11:00 IST" duration-ms="12351" status="PASS">
+        <test-method signature="LoginTC2_ToAmazon()[pri:0, instance:project1_Amazon.TC2_Login@402c4085]" started-at="2025-06-13T23:01:52 IST" name="LoginTC2_ToAmazon" finished-at="2025-06-13T23:02:04 IST" duration-ms="11586" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Test Case Is Pass]]>
             </line>
           </reporter-output>
         </test-method> <!-- LoginTC2_ToAmazon -->
-        <test-method is-config="true" signature="Closing()[pri:0, instance:project1_Amazon.TC2_Login@8458f04]" started-at="2025-06-11T00:11:01 IST" name="Closing" finished-at="2025-06-11T00:11:01 IST" duration-ms="2" status="PASS">
+        <test-method is-config="true" signature="Closing()[pri:0, instance:project1_Amazon.TC2_Login@402c4085]" started-at="2025-06-13T23:02:04 IST" name="Closing" finished-at="2025-06-13T23:02:04 IST" duration-ms="1" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Browser Is Closed Sucessfully]]>

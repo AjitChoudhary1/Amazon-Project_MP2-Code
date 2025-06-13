@@ -18,6 +18,8 @@ public class TC3_Fail_Login extends AmazonPr_BaseClass
 	{
 	        // 3 Ensure login fails with incorrect email or password.
 	   
+		Reporter_Manager.test = Reporter_Manager.extent.createTest("LoginFailTC3_ToAmazon");
+		
 	           System.out.println("Title is-> " + driver.getTitle());
 	           
 	           Excel_DataFetching d1=new Excel_DataFetching();
@@ -25,15 +27,23 @@ public class TC3_Fail_Login extends AmazonPr_BaseClass
 	           
 	               Amazon_HomePage hp= new Amazon_HomePage(driver);
 	                              hp.HoverOver(driver);
+		     	 			              Reporter_Manager.test.info("HoverOver is done");
+
 	                              hp.Signin();
 	   
 	              Amazon_LoginPage lp= new Amazon_LoginPage(driver);
 	                             lp.UnTC3();
+	     	 			                   Reporter_Manager.test.info("Email id is entered");
+
 	                             lp.ContinueButton();
 	                             lp.PwdTC3();
+	      		 			               Reporter_Manager.test.info("Password is entered");
+
 	                             lp.SigninPressTC3();
 	
-	
+	                             
+	          	 	 		                Reporter_Manager.test.pass("TestCase is Succesfull");
+
 	}
 	
 	

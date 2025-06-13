@@ -20,7 +20,8 @@ public class X_TC13_Apply_CouponCode extends AmazonPr_BaseClass
 		 
 		  // 13	Check if user is able to apply for coupon code while ordering the product
 
-		 
+			Reporter_Manager.test = Reporter_Manager.extent.createTest("ApplyCouponCodeTC13_OrderingAmazon");
+
 		   System.out.println("Title is-> " + driver.getTitle());
 		   
 		   Excel_DataFetching d1=new Excel_DataFetching();
@@ -28,21 +29,36 @@ public class X_TC13_Apply_CouponCode extends AmazonPr_BaseClass
          
 	        Amazon_HomePage hp= new Amazon_HomePage(driver);
 	               hp.HoverOver(driver);
+			                    Reporter_Manager.test.info("HoverOver is done");
+
 	               hp.Signin();
 	   
 	        Amazon_LoginPage lp= new Amazon_LoginPage(driver);
 	                lp.Un();
+                              Reporter_Manager.test.info("Username is entered");
+
 	                lp.ContinueButton();
 	                lp.Pwd();
+                              Reporter_Manager.test.info("Password is entered");
+
 	                lp.SigninPress();
 		   
 		          
 	       Amazon_BuyCheckOutPage applycode= new Amazon_BuyCheckOutPage(driver);
 		             applycode.SearchProduct();
+                              Reporter_Manager.test.info("Search product");
+
 		             applycode.FirstProdClick();
 		             applycode.ControlChild(driver);
+                               Reporter_Manager.test.info("Control to the child window");
+
 		             applycode.ApplyCode();
-		   
+                               Reporter_Manager.test.info("Coupon code applied");
+		             
+		             
+		             
+		 	 		           Reporter_Manager.test.pass("TestCase is Succesfull");
+
 		   
 	   }
      

@@ -20,7 +20,8 @@ public class V_TC11_BuyCheckout_PaymentReview extends AmazonPr_BaseClass
 		 
 		  // 11 Validate the entire checkout process, including address selection, payment method selection, and order review.
 
-		 
+			Reporter_Manager.test = Reporter_Manager.extent.createTest("BuyProductTC11_Checkout_PaymentAmazon");
+
 		   System.out.println("Title is-> " + driver.getTitle());
 		   
 		   Excel_DataFetching d1=new Excel_DataFetching();
@@ -28,22 +29,35 @@ public class V_TC11_BuyCheckout_PaymentReview extends AmazonPr_BaseClass
          
 	        Amazon_HomePage hp= new Amazon_HomePage(driver);
 	               hp.HoverOver(driver);
+			                    Reporter_Manager.test.info("HoverOver is done");
+
 	               hp.Signin();
 	   
 	        Amazon_LoginPage lp= new Amazon_LoginPage(driver);
 	                lp.Un();
+                           Reporter_Manager.test.info("Username is entered");
+
 	                lp.ContinueButton();
 	                lp.Pwd();
+                           Reporter_Manager.test.info("Password is entered");
+
 	                lp.SigninPress();
 		   
 		          
 		    Amazon_BuyCheckOutPage chekp= new Amazon_BuyCheckOutPage(driver);
 		               chekp.SearchProduct();
+                             Reporter_Manager.test.info("Searched product");
+
 		               chekp.FirstProdClick();
 		               chekp.ControlChild(driver);
+                               Reporter_Manager.test.info("Control given to the child window");
+
 		               chekp.CheckOut();
 		   
 		   
+		               
+		 	 		          Reporter_Manager.test.pass("TestCase is Succesfull");
+
 	   }
      
 	   
