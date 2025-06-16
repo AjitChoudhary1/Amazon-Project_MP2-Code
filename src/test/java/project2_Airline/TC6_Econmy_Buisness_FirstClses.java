@@ -11,27 +11,87 @@ import org.testng.annotations.DataProvider;
 import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
+import project2_Airline_Src.Airline_BusinessCls_Page;
+import project2_Airline_Src.Airline_EconomyCls_Page;
+import project2_Airline_Src.Airline_FirstCls_Page;
+import project2_Airline_Src.Airline_HomePage;
+
 @Listeners(Airline_ITestListener.class)
 public class TC6_Econmy_Buisness_FirstClses extends Airline_BaseClass
 {
-	@Test (dataProvider="UnPwdExcel", retryAnalyzer=Airline_RetryAnalyzer.class)
-	public void SearchTC6_Ecnmy_Business_FirstClses(String username, String password)
+	@Test (retryAnalyzer=Airline_RetryAnalyzer.class)
+	public void SearchTC6_Ecnmy_Business_FirstClses() throws InterruptedException
 	{
 		
 	        // 6 Validate search results for different classes (economy, business, first class).
 
-				
-	   
+		
+		Reporter_Manager.test = Reporter_Manager.extent.createTest("SearchTC6_Ecnmy_Business_FirstClses");
+
 		
 	           System.out.println("Title is-> " + driver.getTitle());
 	           
+	           Airline_HomePage hp= new Airline_HomePage(driver);
+                         hp.RemoveLogin(driver);
+			                              Reporter_Manager.test.info("Removing is done");
+
+                         
+               Airline_EconomyCls_Page ecp= new Airline_EconomyCls_Page(driver);
+                               ecp.EconomyCls_FLight(driver);
+     			                            Reporter_Manager.test.info("Economy Class Search");
+
 	       
-	        
+                               
+               Airline_BusinessCls_Page bcp= new Airline_BusinessCls_Page(driver);
+                               bcp.BusinessCls_FLight(driver);
+      			                             Reporter_Manager.test.info("Business Class Search");
+
+
 	            
-	              
+               Airline_FirstCls_Page fcp= new Airline_FirstCls_Page(driver);
+                                fcp.FirstCls_FLight();
+      			                               Reporter_Manager.test.info("First Class Search");
+
+
 	        
-	
+		 	 		                      Reporter_Manager.test.pass("TestCase is Succesfull");
+
 	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
 	
 	
 	 @DataProvider

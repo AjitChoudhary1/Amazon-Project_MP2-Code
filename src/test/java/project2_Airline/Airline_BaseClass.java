@@ -9,13 +9,27 @@ import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.edge.EdgeOptions;
 import org.testng.Reporter;
 import org.testng.annotations.AfterMethod;
+import org.testng.annotations.AfterSuite;
 import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.BeforeSuite;
 import org.testng.annotations.Optional;
 import org.testng.annotations.Parameters;
 
+
 public class Airline_BaseClass extends Airline_ITestListener {
 
-
+	@BeforeSuite
+	public void extentreport()
+	{
+		Reporter_Manager.startReport();
+	}
+	
+	@AfterSuite
+	public void extentreport1()
+	{
+		Reporter_Manager.flushReport();
+	}
+	
 	@BeforeMethod
 	@Parameters("Browsers")
 	public void Launching(@Optional("chrome") String NameOfBrowser) {
@@ -25,8 +39,8 @@ public class Airline_BaseClass extends Airline_ITestListener {
 			EdgeOptions options = new EdgeOptions();
 			options.addArguments("start-maximized");
 
-			options.setExperimentalOption("excludeSwitches", Collections.singletonList("enable-automation"));
-			options.setExperimentalOption("useAutomationExtension", false);
+			//options.setExperimentalOption("excludeSwitches", Collections.singletonList("enable-automation"));
+			//options.setExperimentalOption("useAutomationExtension", false);
 
 			 driver = new EdgeDriver(options);
 		}

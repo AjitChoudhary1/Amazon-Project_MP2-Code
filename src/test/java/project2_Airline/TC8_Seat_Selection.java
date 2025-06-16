@@ -11,25 +11,66 @@ import org.testng.annotations.DataProvider;
 import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
+import project2_Airline_Src.Airline_HomePage;
+import project2_Airline_Src.Airline_SeatSelection_Page;
+
 @Listeners(Airline_ITestListener.class)
 public class TC8_Seat_Selection extends Airline_BaseClass
 {
-	@Test (dataProvider="UnPwdExcel", retryAnalyzer=Airline_RetryAnalyzer.class)
-	public void CheckSeatTC8_Selection(String username, String password)
+	@Test (retryAnalyzer=Airline_RetryAnalyzer.class)
+	public void CheckSeatTC8_Selection()
 	{
 		
 	        // 8 Check for seat selection during the booking process.
 	   
-		
+		Reporter_Manager.test = Reporter_Manager.extent.createTest("CheckSeatTC8_Selection");
+
 	           System.out.println("Title is-> " + driver.getTitle());
 	           
-	       
-	        
-	            
+	                Airline_HomePage hp= new Airline_HomePage(driver);
+                                hp.RemoveLogin(driver);
+    			                              Reporter_Manager.test.info("Removing is done");
+
+                   Airline_SeatSelection_Page ssp= new Airline_SeatSelection_Page(driver);
+	                             ssp.SearchDetails();
+		                                     Reporter_Manager.test.info("Flight searched");
+
+	                             ssp.ControlChild(driver);
+	    			                          Reporter_Manager.test.info("Control to the child window");
+
+	                             ssp.SeatDetails();
+	    			                          Reporter_Manager.test.info("Seat Selected");
+
 	              
 	        
+		 	 		                          Reporter_Manager.test.pass("TestCase is Succesfull");
 	
 	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
 	
 	
 	 @DataProvider

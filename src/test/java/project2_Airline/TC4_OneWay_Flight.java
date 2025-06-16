@@ -11,25 +11,66 @@ import org.testng.annotations.DataProvider;
 import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
+import project2_Airline_Src.Airline_HomePage;
+import project2_Airline_Src.Airline_OneWayTrip_Page;
+
 @Listeners(Airline_ITestListener.class)
 public class TC4_OneWay_Flight extends Airline_BaseClass
 {
-	@Test (dataProvider="UnPwdExcel", retryAnalyzer=Airline_RetryAnalyzer.class)
-	public void SearchTC4_OneWayFlight(String username, String password)
+	@Test (retryAnalyzer=Airline_RetryAnalyzer.class)
+	public void SearchTC4_OneWayFlight()
 	{
 		
 	        // 4 Test the search functionality for one-way flights.
 	   
 		
+		Reporter_Manager.test = Reporter_Manager.extent.createTest("SearchTC4_OneWayFlight");
+
+		
 	           System.out.println("Title is-> " + driver.getTitle());
 	           
 	       
-	        
-	            
-	              
-	        
+	           Airline_HomePage hp= new Airline_HomePage(driver);
+	                     hp.RemoveLogin(driver);
+			                           Reporter_Manager.test.info("Removing is done");
+
+	                     
+	           Airline_OneWayTrip_Page owtp= new Airline_OneWayTrip_Page(driver);
+	                            owtp.OneWayTrip();
+				                        Reporter_Manager.test.info("Trip search is done");
+
 	
+	                            
+		 	 		                   Reporter_Manager.test.pass("TestCase is Succesfull");
+
 	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
 	
 	
 	

@@ -8,7 +8,7 @@ import project2_Airline_Src.Airline_RegisterPage;
 @Listeners(Airline_ITestListener.class)
 public class TC1_Register extends Airline_BaseClass {
 
-	@Test //(retryAnalyzer=Airline_RetryAnalyzer.class)
+	@Test (retryAnalyzer=Airline_RetryAnalyzer.class)
 	
 	public void Register_ToClearTrip_TC1() throws InterruptedException {
 		//public void Register_ToAirIndia_TC1() throws InterruptedException {
@@ -17,6 +17,7 @@ public class TC1_Register extends Airline_BaseClass {
 
 		// 1 Verify that users can successfully register for a new account.
 
+		
 		System.out.println("Title is-> " + driver.getTitle());
 
 		Airline_RegisterPage regpage = new Airline_RegisterPage(driver);

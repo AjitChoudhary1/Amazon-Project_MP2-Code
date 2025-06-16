@@ -14,8 +14,8 @@ import org.testng.annotations.Test;
 @Listeners(Airline_ITestListener.class)
 public class TC3_Fail_Login extends Airline_BaseClass
 {
-	@Test (dataProvider="UnPwdExcel", retryAnalyzer=Airline_RetryAnalyzer.class)
-	public void LoginTC3_WrongCred_ToAirIndia(String username, String password)
+	@Test (retryAnalyzer=Airline_RetryAnalyzer.class)
+	public void LoginTC3_WrongCred_ToAirIndia()
 	{
 		
 	        // 3 Test login with invalid credentials and ensure proper error messages are displayed.
@@ -32,6 +32,34 @@ public class TC3_Fail_Login extends Airline_BaseClass
 	        
 	
 	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
 	
 	
 	

@@ -11,28 +11,66 @@ import org.testng.annotations.DataProvider;
 import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
+import project2_Airline_Src.Airline_FareRule_Page;
+import project2_Airline_Src.Airline_HomePage;
+
 @Listeners(Airline_ITestListener.class)
 public class U_TC10_Flight_Rules_Info extends Airline_BaseClass
 {
-	@Test (dataProvider="UnPwdExcel", retryAnalyzer=Airline_RetryAnalyzer.class)
-	public void RulesTC10_Fare_Baggage_Cancelsn(String username, String password)
+	@Test (retryAnalyzer=Airline_RetryAnalyzer.class)
+	public void RulesTC10_Fare_Baggage_Cancelsn()
 	{
 		
 	        // 10 Validate the flight information,Fare details,Baggage Rules and Cancellation Rules link has the details in the search result page.
 
+		
+		Reporter_Manager.test = Reporter_Manager.extent.createTest("RulesTC10_Fare_Baggage_Cancelsn");
 
-	   
 		
 	           System.out.println("Title is-> " + driver.getTitle());
 	           
-	       
-	               
+	           
+	              Airline_HomePage hp= new Airline_HomePage(driver);
+	                      hp.RemoveLogin(driver);
+			                               Reporter_Manager.test.info("Removing is done");
+
 	        
-	            
-	              
+	              Airline_FareRule_Page frp= new Airline_FareRule_Page(driver);
+	                        frp.HydTODxb();
+			                               Reporter_Manager.test.info("Hyderabad to Dubai Flight");
+
 	        
+	 	 		                         Reporter_Manager.test.pass("TestCase is Succesfull");
 	
 	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
 	
 	
 	 @DataProvider

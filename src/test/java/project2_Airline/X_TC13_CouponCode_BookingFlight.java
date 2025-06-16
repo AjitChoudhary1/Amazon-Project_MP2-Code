@@ -11,25 +11,65 @@ import org.testng.annotations.DataProvider;
 import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
+import project2_Airline_Src.Airline_ApplyCode_Page;
+import project2_Airline_Src.Airline_HomePage;
+
 @Listeners(Airline_ITestListener.class)
 public class X_TC13_CouponCode_BookingFlight extends Airline_BaseClass
 {
-	@Test (dataProvider="UnPwdExcel", retryAnalyzer=Airline_RetryAnalyzer.class)
-	public void ApplyCouponTC13_Code_FlightBook(String username, String password)
+	@Test (retryAnalyzer=Airline_RetryAnalyzer.class)
+	public void ApplyCouponTC13_Code_FlightBook()
 	{
 		
 	        // 13 Check if user is able to apply for coupon code while booking the flight trip
 
 		
+		Reporter_Manager.test = Reporter_Manager.extent.createTest("ApplyCouponTC13_Code_FlightBook");
+
+		
 	           System.out.println("Title is-> " + driver.getTitle());
 	           
-	   
+	                 Airline_HomePage hp= new Airline_HomePage(driver);
+	                              hp.RemoveLogin(driver);
+	  			                                 Reporter_Manager.test.info("Removing is done");
+
+	                Airline_ApplyCode_Page acp= new Airline_ApplyCode_Page(driver);
+	                              acp.SearchFlight();
+		  			                              Reporter_Manager.test.info("Searched Flight");
+
+	                              acp.ControlChild(driver);
+		  			                              Reporter_Manager.test.info("Control to the child window");
+
+	                              acp.ApplyCode();
+		  			                              Reporter_Manager.test.info("Coupon code applied");
+
 	        
 	            
-	              
-	        
+		 	 		                              Reporter_Manager.test.pass("TestCase is Succesfull");
 	
 	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
 	
 	
 	 @DataProvider

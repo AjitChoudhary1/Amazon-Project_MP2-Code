@@ -11,26 +11,58 @@ import org.testng.annotations.DataProvider;
 import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
+import project2_Airline_Src.Airline_HomePage;
+import project2_Airline_Src.Airline_RoundTrip_Page;
+
 
 @Listeners(Airline_ITestListener.class)
 public class TC5_RoundTrip_Flight extends Airline_BaseClass
 {
-	@Test (dataProvider="UnPwdExcel", retryAnalyzer=Airline_RetryAnalyzer.class)
-	public void SearchTC5_RoundTrip_Flight(String username, String password)
+	@Test (retryAnalyzer=Airline_RetryAnalyzer.class)
+	public void SearchTC5_RoundTrip_Flight()
 	{
 		
 	        // 5 Test the search functionality for round-trip flights.
 	   
-		
+		Reporter_Manager.test = Reporter_Manager.extent.createTest("SearchTC5_RoundTrip_Flight");
+
 	           System.out.println("Title is-> " + driver.getTitle());
 	           
-	       
-	        
-	            
+	           Airline_HomePage hp= new Airline_HomePage(driver);
+                         hp.RemoveLogin(driver);
+			                         Reporter_Manager.test.info("Removing is done");
+
+                         
+               Airline_RoundTrip_Page rtp= new Airline_RoundTrip_Page(driver);
+	                     rtp.RoundTrip();
+			                         Reporter_Manager.test.info("Round Trip is done");
+
 	              
 	        
-	
+	 		                         Reporter_Manager.test.pass("TestCase is Succesfull");
+
 	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
 	
 	
 	 @DataProvider

@@ -11,27 +11,67 @@ import org.testng.annotations.DataProvider;
 import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
+import project2_Airline_Src.Airline_HomePage;
+import project2_Airline_Src.Airline_MultiplePsngr_Page;
+
 @Listeners(Airline_ITestListener.class)
 public class TC9_MultiplePasngrs_SingleBooking extends Airline_BaseClass
 {
-	@Test (dataProvider="UnPwdExcel", retryAnalyzer=Airline_RetryAnalyzer.class)
-	public void MultiplePasngrsTC9_SingleBooking_Ability(String username, String password)
+	@Test (retryAnalyzer=Airline_RetryAnalyzer.class)
+	public void MultiplePasngrsTC9_SingleBooking_Ability()
 	{
 		
 	        // 9 Validate the system's ability to handle multiple passengers in a single booking.
 
 		
-	   
+		Reporter_Manager.test = Reporter_Manager.extent.createTest("MultiplePasngrsTC9_SingleBooking_Ability");
+
 		
 	           System.out.println("Title is-> " + driver.getTitle());
 	           
-	       
-	        
-	            
+	           
+	           Airline_HomePage hp= new Airline_HomePage(driver);
+	                      hp.RemoveLogin(driver);
+			                             Reporter_Manager.test.info("Removing is done");
+
+	                      
+	           Airline_MultiplePsngr_Page mpp= new Airline_MultiplePsngr_Page(driver);
+	                      mpp.MultiplePsngr();
+			                             Reporter_Manager.test.info("Selected multiple passengers");
+
+	                      mpp.ControlChild(driver);
+			                              Reporter_Manager.test.info("Control to the child window");
+
 	              
 	        
+ 	 		                              Reporter_Manager.test.pass("TestCase is Succesfull");
 	
 	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
 	
 	
 	 @DataProvider

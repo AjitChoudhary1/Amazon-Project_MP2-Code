@@ -11,25 +11,72 @@ import org.testng.annotations.DataProvider;
 import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
+import project2_Airline_Src.Airline_HomePage;
+import project2_Airline_Src.Airline_MultiCityFlight_Page;
+
 @Listeners(Airline_ITestListener.class)
 public class TC7_MultiCity_Flights extends Airline_BaseClass
 {
-	@Test (dataProvider="UnPwdExcel", retryAnalyzer=Airline_RetryAnalyzer.class)
-	public void SearchTC7_MultiCity_Flights(String username, String password)
+	@Test (retryAnalyzer=Airline_RetryAnalyzer.class)
+	public void SearchTC7_MultiCity_Flights() throws InterruptedException
 	{
 		
 	        // 7 Test for multi-city flight search.
 	   
 		
+		Reporter_Manager.test = Reporter_Manager.extent.createTest("SearchTC7_MultiCity_Flights");
+
+		
 	           System.out.println("Title is-> " + driver.getTitle());
 	           
-	        
-	        
+	           
+	           Airline_HomePage hp = new Airline_HomePage(driver);
+	                         hp.RemoveLogin(driver);
+				                          Reporter_Manager.test.info("Removing is done");
+
+	           
+	           Airline_MultiCityFlight_Page mfp= new Airline_MultiCityFlight_Page(driver);
+	                         mfp.JprTOBlr(driver);
+				                          Reporter_Manager.test.info("Jaipur to Bangalore Flight");
+
+	                         mfp.DelTOBom(driver);
+				                          Reporter_Manager.test.info("New Delhi to Mumbai Flight");
+
+	                        // mfp.HydTODxb();
 	            
 	              
 	        
-	
+	 	 		                         Reporter_Manager.test.pass("TestCase is Succesfull");
+
 	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
 	
 	
 	 @DataProvider

@@ -3,13 +3,15 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="project1_Amazon.Y_TC14_StarRating">
+      <class name="project2_Airline.TC4_OneWay_Flight">
         <methods>
-          <include name="Star5TC14_Rating_LastOrder_Amazon"/>
+          <include name="SearchTC4_OneWayFlight"/>
+          <include name="extentreport1"/>
+          <include name="extentreport"/>
           <include name="Launching"/>
           <include name="Closing"/>
         </methods>
-      </class> <!-- project1_Amazon.Y_TC14_StarRating -->
+      </class> <!-- project2_Airline.TC4_OneWay_Flight -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

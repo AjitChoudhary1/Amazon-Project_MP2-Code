@@ -14,8 +14,8 @@ import org.testng.annotations.Test;
 @Listeners(Airline_ITestListener.class)
 public class TC2_Login extends Airline_BaseClass
 {
-	@Test (dataProvider="UnPwdExcel", retryAnalyzer=Airline_RetryAnalyzer.class)
-	public void LoginTC2_RightCred_ToAirIndia(String username, String password)
+	@Test (retryAnalyzer=Airline_RetryAnalyzer.class)
+	public void LoginTC2_RightCred_ToAirIndia()
 	{
 		
 	        // 2 Validate the login functionality with valid credentials
@@ -30,6 +30,30 @@ public class TC2_Login extends Airline_BaseClass
 	        
 	
 	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
 	
 	
 	
